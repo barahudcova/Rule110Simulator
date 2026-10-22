@@ -1,0 +1,9 @@
+{
+  "sha256": {
+    "gliders.json": "c1d5c22d602f4943b86055af6efae1d7eb73d2ab24a7dd159c085348b0565718",
+    "static_crossing_patterns.json": "e019518807ff7a681585614bd72f0e0b0fd38eea946f4f50cf5d7990b54c7810",
+    "moving_crossing_patterns.json": "11c6d0cc0c06101e0f3fef073f6cf8ce21c3e7138a24e873be220f2ad40c2efb",
+    "ossification_patterns.json": "e3d817705ef574e562cf2412beeb26f1097bcb2fbb2829a62effefea2ea233f6",
+    "encoder_geometry.json": "c18f3c974fa8cb753f563d1ae7dc1ac647fd7ea5ada9d6bcdcce93a63a413693"
+  }
+}

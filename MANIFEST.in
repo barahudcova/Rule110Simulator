@@ -1,0 +1,7 @@
+include README.md THIRD_PARTY.md
+include verify.py visualize.py
+recursive-include pyca_verifier *.py *.json *.ttf
+prune artifacts
+prune build
+prune dist
+global-exclude __pycache__ *.py[cod] .DS_Store

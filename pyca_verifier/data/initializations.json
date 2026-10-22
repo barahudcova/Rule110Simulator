@@ -1,0 +1,8 @@
+{
+  "Original": {"tape": "YYN", "appendants": ["YNNYNN"]},
+  "Two empty": {"tape": "YYY", "appendants": ["YYYYYY", "", ""]},
+  "Three empty": {"tape": "YYNY", "appendants": ["YNNYNN", "NYYNYY", "", "", ""]},
+  "Mixed rules": {"tape": "YYN", "appendants": ["YNNYNN", "NYYNYY"]},
+  "Single empty": {"tape": "YYY", "appendants": ["YYYYYY", ""]},
+  "Long rejection": {"tape": "YNNNNNNNNNNNNNNNNNN", "appendants": ["YYYYYY"]}
+}

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyca-rule110-verifier"
+version = "0.2.0"
+description = "Rule 110 simulation of cyclic tag systems with finite-state readiness and decoding"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+visualization = ["numpy>=1.24", "pygame>=2.5"]
+
+[project.scripts]
+pyca-verify = "pyca_verifier.cli:main"
+pyca-visualize = "pyca_verifier.gui:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+include = ["pyca_verifier", "pyca_verifier.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+pyca_verifier = ["data/*.json", "gui/interface/assets/*.ttf"]
