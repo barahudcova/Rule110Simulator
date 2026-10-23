@@ -1,0 +1,93 @@
+{
+  "format_version": 1,
+  "claim": "Global CTS admissibility for two additional structured mixed-symbol inputs; not a Rule 110 correctness proof.",
+  "driver_sha256": "6aad4d935e375aff5149175f153f7fa6286511d88933565d08bc1014bc340dd9",
+  "proofs": [
+    {
+      "case_name": "repeated-twelve-historical",
+      "initial_tape": "YNNNNYYNNNNYYNNNNY",
+      "appendants": [
+        "YNNNNYYNNNNY",
+        "YNNNNYYNNNNY",
+        "YNNNNYYNNNNY"
+      ],
+      "block_length": 3,
+      "initial_blocks": [
+        "YNN",
+        "NNY",
+        "YNN",
+        "NNY",
+        "YNN",
+        "NNY"
+      ],
+      "appendant_blocks": [
+        [
+          "YNN",
+          "NNY",
+          "YNN",
+          "NNY"
+        ],
+        [
+          "YNN",
+          "NNY",
+          "YNN",
+          "NNY"
+        ],
+        [
+          "YNN",
+          "NNY",
+          "YNN",
+          "NNY"
+        ]
+      ],
+      "each_block_contains_Y": true,
+      "all_appendants_nonempty": true,
+      "minimum_appended_blocks_per_productive_read": 4,
+      "minimum_net_block_increase_per_rotation": 3,
+      "argument": "At each aligned three-step rotation, exactly one complete three-letter block is consumed. It contains Y, so at least one nonempty appendant is appended. Every appended word consists of at least two whole three-letter blocks, each containing Y. Thus the block property is preserved, the block count increases by at least one, and the tape never empties, including inside a rotation."
+    },
+    {
+      "case_name": "unequal-6-12-18",
+      "initial_tape": "YYYYYYYYYYYYYYYYYY",
+      "appendants": [
+        "YNYYNY",
+        "YNNNNYYNNNNY",
+        "YNYNNYYNYNNYYNYNNY"
+      ],
+      "block_length": 3,
+      "initial_blocks": [
+        "YYY",
+        "YYY",
+        "YYY",
+        "YYY",
+        "YYY",
+        "YYY"
+      ],
+      "appendant_blocks": [
+        [
+          "YNY",
+          "YNY"
+        ],
+        [
+          "YNN",
+          "NNY",
+          "YNN",
+          "NNY"
+        ],
+        [
+          "YNY",
+          "NNY",
+          "YNY",
+          "NNY",
+          "YNY",
+          "NNY"
+        ]
+      ],
+      "each_block_contains_Y": true,
+      "all_appendants_nonempty": true,
+      "minimum_appended_blocks_per_productive_read": 2,
+      "minimum_net_block_increase_per_rotation": 1,
+      "argument": "At each aligned three-step rotation, exactly one complete three-letter block is consumed. It contains Y, so at least one nonempty appendant is appended. Every appended word consists of at least two whole three-letter blocks, each containing Y. Thus the block property is preserved, the block count increases by at least one, and the tape never empties, including inside a rotation."
+    }
+  ]
+}

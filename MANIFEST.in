@@ -1,6 +1,8 @@
-include README.md THIRD_PARTY.md
+include README.md THIRD_PARTY.md INITIAL_GAP.md
 include verify.py visualize.py
 recursive-include pyca_verifier *.py *.json *.ttf
+recursive-include soundness *.py *.md *.json
+prune soundness/results
 prune artifacts
 prune build
 prune dist

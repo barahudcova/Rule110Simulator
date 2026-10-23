@@ -144,6 +144,20 @@ empty appendant following data and an empty appendant following another empty
 appendant. A periodic marker identifies appendant zero, including for lists
 containing identical appendants.
 
+The [initial ossifier gap lookup](INITIAL_GAP.md) specifies the paper's
+padding constant, gives an example table, and links to its encoder calculation.
+
+The [encoder soundness report and checks](soundness/README.md) document the
+finite phase-table audit, native collision contracts, and spacing bounds,
+conditional on Cook's intended collision order and isolation. Reproduce the
+checks with `python soundness/run.py`; they require only the standard library.
+The folder also contains the [collision-database description](soundness/DATABASE.md)
+and [ready-pattern occurrence report](soundness/READY_DATABASE.md), with a
+reproducible scan of the external database.
+The [decoder testing report](soundness/DECODER.md) records collision-database
+checks and native cyclic-tag trials, with independent tape and pointer
+comparisons and saved binary rows for replay.
+
 A row is ready when it contains exactly one occurrence in total among four
 fixed patterns: a
 stationary C₂ glider followed by 28 ether cells and the common prepared-leader

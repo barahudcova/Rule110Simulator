@@ -1,0 +1,1528 @@
+{
+  "campaign": "Deterministic seeded/adversarial release full-decoder tests",
+  "seed": 11020261023,
+  "case_count": 32,
+  "statuses": {
+    "passed": 32
+  },
+  "checked_multisteps": 462,
+  "native_ticks": 10154856,
+  "ready_states": 494,
+  "unsupported_events": 0,
+  "independent_mismatch_count": 0,
+  "rejected_preflight_candidates": {
+    "unproductive_aligned_rotation": 8
+  },
+  "admissibility_scope": "Independently verified productive, nonhalting finite prefixes only; no theorem of admissibility for infinite runs",
+  "initialization_matrix": {
+    "status": "passed",
+    "cases": 128,
+    "distinct_six_letter_appendants": 64,
+    "initial_heads": [
+      "Y",
+      "N"
+    ],
+    "failures": [],
+    "elapsed_seconds": 299.8126119170338,
+    "scope": "Direct initial-ready configuration decoding; no transition/admissibility claim",
+    "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590"
+  },
+  "results": [
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 205464,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 161.0831202499685,
+      "rows": "seeded-z1-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z1-v0",
+        "tape": "YYYYYYYYYYYYY",
+        "appendants": [
+          "YNYNYN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 205464,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 161.44816070899833,
+      "rows": "seeded-z1-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z1-v1",
+        "tape": "YYYYYYYYYYYYY",
+        "appendants": [
+          "YYNYNN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 357672,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 572.2166402909788,
+      "rows": "seeded-z1-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z1-v2",
+        "tape": "YYYYYYYYYYYYY",
+        "appendants": [
+          "NYNNYYYNYNYN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 6,
+      "native_ticks": 251916,
+      "ready_states": 7,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 7
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 322.7847405830398,
+      "rows": "seeded-z1-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z1-v3",
+        "tape": "YYYYYYY",
+        "appendants": [
+          "YNYYNYYYYNYYYYYYYY"
+        ],
+        "multisteps": 6,
+        "first_productive_offset": 0,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 6,
+        "productive_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 234648,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 152.6669017910026,
+      "rows": "seeded-z2-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z2-v0",
+        "tape": "YYY",
+        "appendants": [
+          "YYYNYY",
+          "YYNYYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          8,
+          9,
+          10
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 205872,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 160.1212967080064,
+      "rows": "seeded-z2-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z2-v1",
+        "tape": "NYYNYNYYY",
+        "appendants": [
+          "NYYYYY",
+          "YNYYYN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 1,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 287820,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 258.66155499999877,
+      "rows": "seeded-z2-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z2-v2",
+        "tape": "NYYNYYY",
+        "appendants": [
+          "NYNNYN",
+          "NYNNYNYNNNNY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 1,
+        "variant": 2,
+        "selection_attempts": 8,
+        "preflight_steps": 12,
+        "productive_indices": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          8,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 880476,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 3292.3581254169694,
+      "rows": "seeded-z2-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z2-v3",
+        "tape": "NYYYNY",
+        "appendants": [
+          "YYYYYY",
+          "YYYYYYYYYNYYYYYYYY"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 1,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 24,
+        "productive_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 151776,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 130.92405483301263,
+      "rows": "seeded-z3-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z3-v0",
+        "tape": "YYYYYYY",
+        "appendants": [
+          "NYYYYY",
+          "",
+          "NNYYYN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          2,
+          3,
+          5,
+          6,
+          8,
+          9,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 153348,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 100.98127562500304,
+      "rows": "seeded-z3-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z3-v1",
+        "tape": "NNYYYNYYY",
+        "appendants": [
+          "YNYNNY",
+          "",
+          "YNYNNY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 2,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          2,
+          3,
+          6,
+          8,
+          9,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 260562,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 299.9341331659816,
+      "rows": "seeded-z3-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z3-v2",
+        "tape": "NYYNYNYNYY",
+        "appendants": [
+          "NYYNNY",
+          "NNNNYNYYYNNN",
+          "NYNNYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 1,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          1,
+          2,
+          4,
+          6,
+          8,
+          9
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 776142,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 2609.752820292022,
+      "rows": "seeded-z3-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z3-v3",
+        "tape": "NNYNYNYYY",
+        "appendants": [
+          "YNYYYY",
+          "YYYYNY",
+          "YNYYYNYYYYYYNYYYYY"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 2,
+        "variant": 3,
+        "selection_attempts": 2,
+        "preflight_steps": 24,
+        "productive_indices": [
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          22,
+          23
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 207030,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 145.37821620795876,
+      "rows": "seeded-z4-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z4-v0",
+        "tape": "YNYNNYNY",
+        "appendants": [
+          "YNNNNY",
+          "YNYYYY",
+          "YYYYYY",
+          "YYYYYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          2,
+          5,
+          7,
+          8
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 169068,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 96.15781508304644,
+      "rows": "seeded-z4-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z4-v1",
+        "tape": "NNNYNYY",
+        "appendants": [
+          "YYNNNN",
+          "",
+          "YYNNNN",
+          "YYNNNN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 3,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          3,
+          6,
+          7,
+          8
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 332178,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 248.30192920804257,
+      "rows": "seeded-z4-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z4-v2",
+        "tape": "NNYNY",
+        "appendants": [
+          "YNNNNN",
+          "YNNNYN",
+          "YYNNNYNNYYYY",
+          "YNYYNY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 2,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          2,
+          4,
+          5,
+          6,
+          10
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 705054,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 1806.9596313750371,
+      "rows": "seeded-z4-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z4-v3",
+        "tape": "NNYNN",
+        "appendants": [
+          "YYYYYY",
+          "",
+          "YYYYNYYYYYYYYYYYYY",
+          "YYYNNY"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 2,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 24,
+        "productive_indices": [
+          2,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          22,
+          23
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 179436,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 288.13749591703527,
+      "rows": "seeded-z5-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z5-v0",
+        "tape": "YYYYNYY",
+        "appendants": [
+          "NYYYNY",
+          "NNYYNY",
+          "",
+          "YYNYYN",
+          "NNYNYN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 15,
+        "productive_indices": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          8,
+          9,
+          10
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 165630,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 185.7241762910271,
+      "rows": "seeded-z5-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z5-v1",
+        "tape": "NNNNYYY",
+        "appendants": [
+          "YYYYYY",
+          "",
+          "YYYYYY",
+          "YYYYYY",
+          "YNYYNY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 4,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 15,
+        "productive_indices": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          12,
+          13,
+          14
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 231456,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 440.04473604197847,
+      "rows": "seeded-z5-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z5-v2",
+        "tape": "NNYYYYY",
+        "appendants": [
+          "NYNYYY",
+          "NYNNYY",
+          "YYYNNYNNNNYY",
+          "YNYYYY",
+          "YNNYYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 2,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 15,
+        "productive_indices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 568500,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 1383.7060682909796,
+      "rows": "seeded-z5-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+      "case": {
+        "id": "seeded-z5-v3",
+        "tape": "NNNYYYNNNY",
+        "appendants": [
+          "YYYNYY",
+          "",
+          "",
+          "YYNYYYYYYYYYYYNYYY",
+          "YYYYYY"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 3,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 25,
+        "productive_indices": [
+          3,
+          4,
+          5,
+          9,
+          10,
+          13,
+          14,
+          15,
+          18,
+          19,
+          20,
+          23
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 97800,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 65.48261762497714,
+      "rows": "seeded-z6-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z6-v0",
+        "tape": "YYYNYNNY",
+        "appendants": [
+          "YYYYYY",
+          "",
+          "",
+          "",
+          "NYNYYY",
+          ""
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          0,
+          4,
+          10
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 154086,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 94.4149261660059,
+      "rows": "seeded-z6-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z6-v1",
+        "tape": "NNNNNYNNNYYN",
+        "appendants": [
+          "NYYYNY",
+          "",
+          "NYYYNY",
+          "NYYYNY",
+          "",
+          "NYYYNY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 5,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          5,
+          9
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 267018,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 244.8957672920078,
+      "rows": "seeded-z6-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z6-v2",
+        "tape": "NNNYYN",
+        "appendants": [
+          "NNYNYY",
+          "",
+          "",
+          "NNNYNNNNYNNY",
+          "NYYNYY",
+          "YYYYYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 3,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 12,
+        "productive_indices": [
+          3,
+          4,
+          9
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 720318,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 1612.344003917009,
+      "rows": "seeded-z6-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z6-v3",
+        "tape": "NNNYYY",
+        "appendants": [
+          "YNYYYY",
+          "",
+          "",
+          "YYYYYYYYNYYYNYNNYY",
+          "YYYYNY",
+          "YYNNYY"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 3,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 24,
+        "productive_indices": [
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          11,
+          12,
+          15,
+          16,
+          17,
+          22,
+          23
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 205806,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 157.30142120900564,
+      "rows": "seeded-z7-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z7-v0",
+        "tape": "YYYY",
+        "appendants": [
+          "YNYYYY",
+          "",
+          "",
+          "YYNYNN",
+          "YYNNYY",
+          "NNYYYY",
+          ""
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 14,
+        "productive_indices": [
+          0,
+          3,
+          4,
+          7,
+          10,
+          11
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 152526,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 116.31741625000723,
+      "rows": "seeded-z7-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z7-v1",
+        "tape": "NNNNNNYYYYYYYY",
+        "appendants": [
+          "YYNNYY",
+          "",
+          "YYNNYY",
+          "YYNNYY",
+          "",
+          "YYNNYY",
+          "YYNNYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 6,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 14,
+        "productive_indices": [
+          6,
+          7,
+          9,
+          10,
+          12,
+          13
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 178842,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 138.06877675000578,
+      "rows": "seeded-z7-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z7-v2",
+        "tape": "NNNYYNYNYNYN",
+        "appendants": [
+          "YYNYYY",
+          "",
+          "YYYYYN",
+          "YNYNYNYNNYNN",
+          "NNYNNY",
+          "",
+          ""
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 3,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 14,
+        "productive_indices": [
+          3,
+          4,
+          10
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 551712,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 1068.6808853750117,
+      "rows": "seeded-z7-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z7-v3",
+        "tape": "NNNNYYYYYYY",
+        "appendants": [
+          "YYYYYN",
+          "",
+          "",
+          "",
+          "NYNYYYYYYYYYYYYNNY",
+          "YYYYYY",
+          "NNYYYN"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 4,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 28,
+        "productive_indices": [
+          4,
+          5,
+          6,
+          7,
+          12,
+          14,
+          18,
+          19,
+          20,
+          21,
+          25
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 290526,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 353.05677383299917,
+      "rows": "seeded-z8-v0/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z8-v0",
+        "tape": "YYYY",
+        "appendants": [
+          "NYYNNY",
+          "NNYNNY",
+          "NYYYYY",
+          "NNYYYN",
+          "",
+          "",
+          "YYNYNN",
+          "NYYNYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 0,
+        "variant": 0,
+        "selection_attempts": 1,
+        "preflight_steps": 16,
+        "productive_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          9,
+          15
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 168402,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 178.23554466699716,
+      "rows": "seeded-z8-v1/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z8-v1",
+        "tape": "NNNNNNNYYNNYY",
+        "appendants": [
+          "NNNYYN",
+          "",
+          "NNNYYN",
+          "NNNYYN",
+          "",
+          "NNNYYN",
+          "NNNYYN",
+          "NNYYYY"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 7,
+        "variant": 1,
+        "selection_attempts": 1,
+        "preflight_steps": 16,
+        "productive_indices": [
+          7,
+          8,
+          11,
+          15
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 12,
+      "native_ticks": 219726,
+      "ready_states": 13,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 13
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 477.5870461660088,
+      "rows": "seeded-z8-v2/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z8-v2",
+        "tape": "NNNNYYYNYYNN",
+        "appendants": [
+          "YNYYNY",
+          "YNYYYN",
+          "YNYYNN",
+          "YYYNYY",
+          "YNNNYYYNYYNY",
+          "NNNYYY",
+          "NNYYYN",
+          "YNYNNN"
+        ],
+        "multisteps": 12,
+        "first_productive_offset": 4,
+        "variant": 2,
+        "selection_attempts": 1,
+        "preflight_steps": 16,
+        "productive_indices": [
+          4,
+          5,
+          6,
+          8,
+          9,
+          12
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    },
+    {
+      "status": "passed",
+      "reason": "requested_multisteps_checked",
+      "checked_multisteps": 24,
+      "native_ticks": 618582,
+      "ready_states": 25,
+      "unsupported_events": 0,
+      "runtime_mismatch_ticks": [],
+      "independent_mismatches": [],
+      "ready_c2_phase_counts": {
+        "1": 25
+      },
+      "initial_seed_is_ready": true,
+      "elapsed_seconds": 1679.0690527910483,
+      "rows": "seeded-z8-v3/ready-rows.jsonl.gz",
+      "execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+      "case": {
+        "id": "seeded-z8-v3",
+        "tape": "NNNNYNYYYNNN",
+        "appendants": [
+          "YYYNYY",
+          "",
+          "",
+          "",
+          "NYYYYYYYYYYNYYYYYY",
+          "YYYYYY",
+          "YNYYYY",
+          "YYYYYY"
+        ],
+        "multisteps": 24,
+        "first_productive_offset": 4,
+        "variant": 3,
+        "selection_attempts": 1,
+        "preflight_steps": 24,
+        "productive_indices": [
+          4,
+          6,
+          7,
+          8,
+          13,
+          14,
+          15,
+          16,
+          20,
+          21,
+          22
+        ],
+        "preflight_status": "nonhalting and productive in each aligned full rotation"
+      }
+    }
+  ],
+  "runtime_sha256": {
+    "pyca_verifier/__init__.py": "c7488e1987e1a8b4c16ab967930235469f1af0a4f6ca7a87525c933be5d69221",
+    "pyca_verifier/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "pyca_verifier/automaton.py": "017120fe19a6a60cca7e3eba458855f3acd1ecd2880d3bfaf1ccc973010c58ce",
+    "pyca_verifier/background.py": "a657fea747d54792330b40ca40798aed339ccf1a439e231808afee4306c7c393",
+    "pyca_verifier/canonical_content_patterns.py": "c54468781124593aa37928fccff4551a706aff5f74222df1c0c5acb0f8d83896",
+    "pyca_verifier/canonical_decoder.py": "08c160e486e92a29f1f03e6a325190f31ac9c24010fe4da8cf35cffa4aaa3cc4",
+    "pyca_verifier/canonical_ossification.py": "03ee2dbd7288a413da15c4a658944f2b240cc737f8387a480d8ca45c1d4eb56d",
+    "pyca_verifier/catalogue.py": "8a406f59cbf4c4867878d17d5775886f916d794aff2cbc19b5e8e886316b4eec",
+    "pyca_verifier/cli.py": "ff21811fab3ed65a0a0378106f0156cdbaf3ecc680460e954146d86ac4692a65",
+    "pyca_verifier/collision_monitor.py": "f4b5eb81a8dcaf1db754a1d7ef6d0c36b184fb654e5c44aef39437a0a1e3edf7",
+    "pyca_verifier/cts.py": "561c3af7faf60c0cf0a96770735c5fa5426817d8618fcb30e18e4d208cab760a",
+    "pyca_verifier/data/catalogue_manifest.json": "18c9af1ddf77393d9b78386e9fe2e89330309bed850c8bbc1b803a36f2ec0cac",
+    "pyca_verifier/data/dict_rl.json": "394cd37d88254e0f307efeedfce8738f4d19dc08e6a1c2facdf4b066d1c9b58a",
+    "pyca_verifier/data/dict_sc_sl.json": "4c9d4c292fccf314564a4f306484077b7185d7025703baad698c5205fc05eb2c",
+    "pyca_verifier/data/dict_sl.json": "90e444deadcb8628fb4c42b4ab06a55bff7e3d9e4b9d1d6c31af21182d3e92a0",
+    "pyca_verifier/data/dict_sl_rl.json": "459b0e02e8a8efc8242bc02583adc56eb623b6975f688d166af90b6e3ef4a0dc",
+    "pyca_verifier/data/dict_sl_sl.json": "9f3f6a0e4fea6636042c58aaf4bd4e4ccef0133844e2a3d425c956be864287a1",
+    "pyca_verifier/data/dict_yn.json": "285af731b8672a74e55810a64c6a8e0a06b0d133363f1a88ac43b69ca383a44a",
+    "pyca_verifier/data/encoder_geometry.json": "c18f3c974fa8cb753f563d1ae7dc1ac647fd7ea5ada9d6bcdcce93a63a413693",
+    "pyca_verifier/data/gliders.json": "c1d5c22d602f4943b86055af6efae1d7eb73d2ab24a7dd159c085348b0565718",
+    "pyca_verifier/data/initializations.json": "6cc94a20dccd5281d581d3f83b23a0257c04e0734868bb25e633766424bf2043",
+    "pyca_verifier/data/moving_crossing_patterns.json": "11c6d0cc0c06101e0f3fef073f6cf8ce21c3e7138a24e873be220f2ad40c2efb",
+    "pyca_verifier/data/ossification_patterns.json": "e3d817705ef574e562cf2412beeb26f1097bcb2fbb2829a62effefea2ea233f6",
+    "pyca_verifier/data/source.json": "673a46ab4bf9e607e7d5746900d040e05893ccb6d120f5e38910a7fe735fb010",
+    "pyca_verifier/data/static_crossing_patterns.json": "e019518807ff7a681585614bd72f0e0b0fd38eea946f4f50cf5d7990b54c7810",
+    "pyca_verifier/encoder.py": "718dcc3cfbc987d67ba2c0925d8ca1afcffdd6084a5255a7094865ac68086a63",
+    "pyca_verifier/gui/__init__.py": "85fe724081494d34957746250827473277487103921d0077afd7370f69ae0122",
+    "pyca_verifier/gui/__main__.py": "0a1256b1bbacd48eead07ba2639fc60cab3a8d931e850f395c043688c069b6bc",
+    "pyca_verifier/gui/app.py": "28427f1a7d0232d5ac726248aef1c63c10093e6802e89607a0afdaa3c133974d",
+    "pyca_verifier/gui/interface/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pyca_verifier/gui/interface/camera.py": "f96f38c340efee555837cce6e67721569e9c37d3711e5d329a69026bb557fcda",
+    "pyca_verifier/gui/interface/graphics.py": "8a5cec73c6485ccb1944434e33d03f5297ae87884a89cd63f109773fc2455d1e",
+    "pyca_verifier/gui/interface/widgets.py": "d4943d269850d23979934ff2d9bc4c2fb25fcc0c1ee30da0bfe0683277dbee97",
+    "pyca_verifier/gui/native.py": "657ee91f4e8c30cc1a0f6afb6d757c18cf35f6d06ad796a177b28e510d048c5c",
+    "pyca_verifier/gui/representation.py": "da2a4c4249ee18a75c97c13ed35c5599e4630f016dabcc1cb6cb72c0dcbd00e2",
+    "pyca_verifier/gui/simulation.py": "6f2b0b3aad11eed1a4ffc29096531e6bc6176d4da557c2874631a0b5536b2dd9",
+    "pyca_verifier/gui/view.py": "f6f47d7d5734036a4817ffff7a18a17d96fb95d48069003074dc20a113bde8da",
+    "pyca_verifier/literal_matcher.py": "fff789635dea08a26ece9d03676ac897c891087f121fcc77a7d28f23359c1950",
+    "pyca_verifier/local_content_transducer.py": "c717d3774c621fea35b9f3822656bd5115ec33d13a5f6a05e5332bd82ac6706f",
+    "pyca_verifier/matching.py": "c4377e634c5c175f14d8e5b7dcf779e18b4a4914c72ac3207f9155db917717e9",
+    "pyca_verifier/moving_crossing_patterns.py": "5a4022b4d41e2633b26f2aae0739d9bdee81587fd899ba47cf28b4046259314c",
+    "pyca_verifier/optimized_ready_matching.py": "f24b5dc630a4337f76323adf7457a92c2040f4aca9610d81633252abacc696b8",
+    "pyca_verifier/ossification_patterns.py": "96d80895d353f1f2bb7a0747926446a54ef5df8efccfa64325f8eab4927107b7",
+    "pyca_verifier/patterns.py": "5fc8b3271e70007f1dec8a615a16a75108850d55ebcade63dc9f83d8032f8185",
+    "pyca_verifier/program.py": "39f42bc42cdcf6d3285071053deea2dc757915c99e5a285301fdba1ccaf4ccac",
+    "pyca_verifier/program_control.py": "291f204484b5e3cd8c1db95cdcbeb056dd3194e1c7ea072aba3f32aa8711046e",
+    "pyca_verifier/ready.py": "fb8dbdea0a326f555387cfaed528ee3f6c57d2057421ba22bd88c389281d42cd",
+    "pyca_verifier/runner.py": "e55372aa3ad97b3a03e0031f199f619a672e51c0f037df3542f8d3ff78552a29",
+    "pyca_verifier/spacing_geometry.py": "3b1b461512540ac9bbb0440110047d5c13b72edd89f14aa8e131b3fd313dd825",
+    "pyca_verifier/static_crossing_patterns.py": "bbde66c0575d1aef7c1a5424a5ab91a41e0133412af936caeb40626e06976725",
+    "pyca_verifier/tape_patterns.py": "e118d547a6b4a24eb5d9bfadeb095f348072065dac1896a34c030072b56c61f0",
+    "pyca_verifier/transducer.py": "28fa271148212aa06e769ccbc11f1bdc799c5a010681eee54806c0991803736b",
+    "pyca_verifier/visualization.py": "5d529e2d93b290cf1f7b5a2b65ab7954e61517ee45313f77bf512190b96de26d"
+  },
+  "driver_sha256": "c15d1a8e291680b350e76ac9b9c3ede9371d36de912ac4dc4346b419b530a166",
+  "case_execution_driver_sha256_counts": {
+    "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590": 16,
+    "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922": 16
+  },
+  "initialization_matrix_execution_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+  "runtime_unchanged": true,
+  "test_design_refinement": {
+    "case": "seeded-z1-v3",
+    "original_multisteps": 24,
+    "final_multisteps": 6,
+    "reason": "The redundant 24-step/18-letter case allocated 432 produced-letter ossifiers and a 4,887,986-cell seed. A six-step probe preserves 18-letter train coverage; other cases retain 24-step horizons.",
+    "original_driver_sha256": "13e68c50ccfa392a04db296d980d6dca9c12a85093f335b63c87e9e47278f590",
+    "original_run_status": "interrupted; not counted as passed",
+    "original_ready_rows_saved": 5,
+    "original_last_saved_tick": 167944,
+    "original_partial_rows": "results/decoder-seeded/interrupted-initial-goals/seeded-z1-v3/ready-rows.recovered.jsonl.gz"
+  },
+  "complete": true,
+  "driver_metadata_update_audit": {
+    "classification": "Metadata-only driver revision after all native trials completed",
+    "before_driver_sha256": "13678ee48b2bea8625bb09f4a88f403aedbc783cff32d8e2609fbbcc64494922",
+    "after_driver_sha256": "c15d1a8e291680b350e76ac9b9c3ede9371d36de912ac4dc4346b419b530a166",
+    "critical_AST_and_input_checks": {
+      "expected_prefix": true,
+      "generate_cases": true,
+      "observe": true,
+      "run_multisteps_calls_unchanged": true,
+      "initialization_matrix_loops_unchanged": true,
+      "all_32_case_descriptors_unchanged": true,
+      "runtime_files_unchanged": true
+    },
+    "native_reruns": 0
+  },
+  "consolidation_integrity": {
+    "status": "passed",
+    "copied_case_count": 17,
+    "identical_file_count": 51
+  }
+}

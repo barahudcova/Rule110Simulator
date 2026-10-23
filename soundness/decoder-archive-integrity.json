@@ -1,0 +1,455 @@
+{
+  "status": "passed",
+  "CA_or_decoder_reexecuted": false,
+  "scope": "Archive integrity and independent reference verification; not a second native run.",
+  "cases": 59,
+  "transitions": 1196,
+  "ready_rows": 1255,
+  "native_ticks": 20530454,
+  "campaigns": [
+    {
+      "campaign": "decoder-cts",
+      "cases": 24,
+      "transitions": 662,
+      "ready_rows": 686,
+      "native_ticks": 9568946,
+      "results": [
+        {
+          "case": "two-empty",
+          "ready_rows": 37,
+          "transitions": 36,
+          "last_tick": 368322,
+          "archive_sha256": "91cd3b9bccacd3f533a6fbc6b86c331d3fc72353540e2f0c805c7b5a8319fccc"
+        },
+        {
+          "case": "three-empty",
+          "ready_rows": 29,
+          "transitions": 28,
+          "last_tick": 258388,
+          "archive_sha256": "d01063f574f45674c7ef65c4e8b50307c06b03ba5795ee72acdb72e782454219"
+        },
+        {
+          "case": "five-empty",
+          "ready_rows": 31,
+          "transitions": 30,
+          "last_tick": 225780,
+          "archive_sha256": "33e5f3fef2649410e1bee3b99a919e40a72aa95c176d8ce7e40a78eff5becc96"
+        },
+        {
+          "case": "repeated-twelve-historical",
+          "ready_rows": 41,
+          "transitions": 40,
+          "last_tick": 1417450,
+          "archive_sha256": "78fe0b84551a1120be4dd5c0d4ccc8e26c28fc5d6b7ecfa50fa1444c35f14dbf"
+        },
+        {
+          "case": "identical-two",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 494040,
+          "archive_sha256": "53bafcdcfe7646e63f358fd4683fa643acac315a9e56ddefb5862bb139a9274d"
+        },
+        {
+          "case": "identical-three",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 539490,
+          "archive_sha256": "29006e74063129bb907731d573ba3b7633d5530fde8bdf38a5c7f99e5f1c7cba"
+        },
+        {
+          "case": "one-appendant-growth",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 449820,
+          "archive_sha256": "a0c2d1f2d388c277c8cca2a390fcdd34fe483a1237fdb2ade0cac958317c74b2"
+        },
+        {
+          "case": "long-horizon-empty",
+          "ready_rows": 65,
+          "transitions": 64,
+          "last_tick": 328258,
+          "archive_sha256": "a4e9d8bf5da22cdb33e41ecdf69df5f521efaea88f3e457187d14aa71055829b"
+        },
+        {
+          "case": "long-horizon-mixed",
+          "ready_rows": 61,
+          "transitions": 60,
+          "last_tick": 345660,
+          "archive_sha256": "1daac40deb650d70a7dd52a0e8152004c2ab9aebe0483732de9f7162f218fc62"
+        },
+        {
+          "case": "unequal-6-12-18",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 807036,
+          "archive_sha256": "289f1fb13e9e65827b7bf9c0e098c01d92e5ee2595c0afc78de8b3c1e0b34433"
+        },
+        {
+          "case": "unequal-6-24-empty",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 240366,
+          "archive_sha256": "beb728f25b4ca93bb753fd83117d06eb3d40638001f4547c1d7e8a0da5d8b8c9"
+        },
+        {
+          "case": "unequal-24-6",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 434028,
+          "archive_sha256": "dc869e8c503f165d7b9bee1296cc233c7929f61d7204ca3a385d9a2a6007fb0c"
+        },
+        {
+          "case": "n-head-immediate-next",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 303282,
+          "archive_sha256": "c61c00aa822fccac72184842dff6dbe2b1f881c85c4b184996f666ff80283543"
+        },
+        {
+          "case": "n-head-late-productive",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 302718,
+          "archive_sha256": "95b5078585fa1f1915c5fe2560d79585aaa0615cf1c65201b3e0e43c4dc1e69f"
+        },
+        {
+          "case": "n-head-seven-late",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 164412,
+          "archive_sha256": "ae128b6a47577418a3cce8be336779a03d459c9cd183a29179f868b6c1061da1"
+        },
+        {
+          "case": "all-n-payload",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 410256,
+          "archive_sha256": "18877e52084579f054d7f9bba07d1c82c6a213ca33ed1f63bf0edbf8ef031ec1"
+        },
+        {
+          "case": "all-n-and-y",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 329028,
+          "archive_sha256": "f9f1345a48ee56e098066794c3b4529124cc555d6c50b4cd610f9c3085173b06"
+        },
+        {
+          "case": "alternating-payload",
+          "ready_rows": 29,
+          "transitions": 28,
+          "last_tick": 323710,
+          "archive_sha256": "17771f5df4160f200246e3f2b6493643ab963037b1d3f998a0b8eb6f17f41612"
+        },
+        {
+          "case": "all-y-long-empty",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 183960,
+          "archive_sha256": "843dfd70cfa82643e0d99af30d2df8960cca6b898fced8260f3b4172b7a58d37"
+        },
+        {
+          "case": "tail-y-packets",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 408450,
+          "archive_sha256": "ad3b068d19d66b4775ebf9db6c2a1927f13c66881d08b3f0a6751621872ac829"
+        },
+        {
+          "case": "head-y-packets",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 408450,
+          "archive_sha256": "16de1bf34c27439484c00d3c0bca2f257919fc07bc14316888fe0c7d8ff8d20c"
+        },
+        {
+          "case": "alternating-initial",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 332808,
+          "archive_sha256": "bcf1e1b9f2e35e9651763adcd25c112b5621a8ebf0da19f66fce992f782dd6c2"
+        },
+        {
+          "case": "six-letter-historical-extended",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 250470,
+          "archive_sha256": "af8b1d608e0e20b86b37865c9f2c217b4414631b6936594a5085d370b439fe93"
+        },
+        {
+          "case": "empty-across-cycle-boundary",
+          "ready_rows": 29,
+          "transitions": 28,
+          "last_tick": 242764,
+          "archive_sha256": "e063db93296071c5ba17d3239666325a8c7cf1f5720f54fcaf9fe489b5527342"
+        }
+      ],
+      "summary_sha256": "3d9ddb3398334b70a60ab5308d79c9700d06df21413dd17366cef629d3839b88"
+    },
+    {
+      "campaign": "decoder-seeded",
+      "cases": 32,
+      "transitions": 462,
+      "ready_rows": 494,
+      "native_ticks": 10154856,
+      "results": [
+        {
+          "case": "seeded-z1-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 205464,
+          "archive_sha256": "1ca49b995017942f1dede7f992986dd441159cd2c63ebc9c1162f3af54afb605"
+        },
+        {
+          "case": "seeded-z1-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 205464,
+          "archive_sha256": "beed0fc18ed9d971b07e51e3dcc9a09cfdcc46959f854c11790bb016a53cde61"
+        },
+        {
+          "case": "seeded-z1-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 357672,
+          "archive_sha256": "11150ce5ee6f39a485eb4aa1ddfb58deed6b122dba280309776b792c9bc65412"
+        },
+        {
+          "case": "seeded-z1-v3",
+          "ready_rows": 7,
+          "transitions": 6,
+          "last_tick": 251916,
+          "archive_sha256": "5b337ec2cdfe79aa55712388a7d0ba0c1ab8dc883705a2127cfc9cc6d5240fc9"
+        },
+        {
+          "case": "seeded-z2-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 234648,
+          "archive_sha256": "21de40bc4d7a789f5f298f963679956039451ffac863f3f46297a6897f499a45"
+        },
+        {
+          "case": "seeded-z2-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 205872,
+          "archive_sha256": "d9ec217405ca8a5a0fa62499607bc658ff4fda7d0e0c279933cbe5aa26e0b1bd"
+        },
+        {
+          "case": "seeded-z2-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 287820,
+          "archive_sha256": "596e026721595a02a0b7c6bddba03363fa67ede6b86016879521b0c75371c1b6"
+        },
+        {
+          "case": "seeded-z2-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 880476,
+          "archive_sha256": "255aa46a89ec72ffb074454456c315a2e450a1a7b8f09c1fa72ffecc66c63c8f"
+        },
+        {
+          "case": "seeded-z3-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 151776,
+          "archive_sha256": "8d3034825a15067f2bd984a9799b570fb690c688a361873d2e3d7e7e2e3faea5"
+        },
+        {
+          "case": "seeded-z3-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 153348,
+          "archive_sha256": "9b2e72c956a5104307c810dd31b94d0e9e071718664c1130ee98c668db369bfa"
+        },
+        {
+          "case": "seeded-z3-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 260562,
+          "archive_sha256": "593b1e9aab6552c34f0af08057309e01aaaba2e59a9574fa0544d0ba071d9505"
+        },
+        {
+          "case": "seeded-z3-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 776142,
+          "archive_sha256": "fe1e0a0ab69648ad3b5977dcddfa6c498368507cc4e40aa5bc17fb8162ad0a8e"
+        },
+        {
+          "case": "seeded-z4-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 207030,
+          "archive_sha256": "7a3322ba6426eb799b52df026658ecdf036ab7ad95f4fed27967fc74ee154c90"
+        },
+        {
+          "case": "seeded-z4-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 169068,
+          "archive_sha256": "91d22c2f9442ed6e3eaa74c08d593d9bac91de498a8e9a7dadf34a76e18c9bc6"
+        },
+        {
+          "case": "seeded-z4-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 332178,
+          "archive_sha256": "0c2efdef3cc6545b9b78bf409653ef8c578ba32a3d772c30dffaeb46fa22c2b5"
+        },
+        {
+          "case": "seeded-z4-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 705054,
+          "archive_sha256": "66a1d23646a106c7cedefca77978c72fa5cee3350fb1749735dd8675ab201404"
+        },
+        {
+          "case": "seeded-z5-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 179436,
+          "archive_sha256": "0d6bf78f7bf2a7efe8ad3719577a49dd9d5d3ffdac3790c4ab5ccee0898cbde9"
+        },
+        {
+          "case": "seeded-z5-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 165630,
+          "archive_sha256": "6ee6214264bfdbd1321a20f6239ed409ff564c2d1e0629ac0bc8dc5fd29fcf27"
+        },
+        {
+          "case": "seeded-z5-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 231456,
+          "archive_sha256": "7f6423da3bce7d62e076a98ce06f29a817652ff4f601b02dc7c588a453ce5a20"
+        },
+        {
+          "case": "seeded-z5-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 568500,
+          "archive_sha256": "29216e3c9e6479fe1891e2862b23449c85d84e5d2ed0ff8f0ba0a62678ee83d3"
+        },
+        {
+          "case": "seeded-z6-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 97800,
+          "archive_sha256": "c7bbc7d02f83970bae1986f5d0a5f71686a87253e409b5097c87bcff12d566a8"
+        },
+        {
+          "case": "seeded-z6-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 154086,
+          "archive_sha256": "baaaa67ace1f8779b37fbe846b181302ed088f624adef324e623ffc633d1050b"
+        },
+        {
+          "case": "seeded-z6-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 267018,
+          "archive_sha256": "eb849ed963affd4d2c349879dd6ea9fb2dc9e9bd97f06e062b964352a830339c"
+        },
+        {
+          "case": "seeded-z6-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 720318,
+          "archive_sha256": "22c153ad0fca58112f83c0db65ee99a6e96f9c07d3e0c800567fea9bd2db0819"
+        },
+        {
+          "case": "seeded-z7-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 205806,
+          "archive_sha256": "86ef2827a47b848644f003f874e9ceb1cd724d6f96482261eddccd116f68a25d"
+        },
+        {
+          "case": "seeded-z7-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 152526,
+          "archive_sha256": "c8399b33109b541e2bb400ea1e8a781f208cf1b718e96a49990d84a940676f14"
+        },
+        {
+          "case": "seeded-z7-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 178842,
+          "archive_sha256": "d10f56c448c810bdf85cd18720974774a5be57d4f6fff4c00cf24f94dc96c7e2"
+        },
+        {
+          "case": "seeded-z7-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 551712,
+          "archive_sha256": "e9a630d091f2d0360a6414892b19b6666f52e5531179300bdf279d9f173e8c90"
+        },
+        {
+          "case": "seeded-z8-v0",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 290526,
+          "archive_sha256": "f49f71cae8f72167311e3a56f0c03094232e46777b73d3c941ffad684db5c954"
+        },
+        {
+          "case": "seeded-z8-v1",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 168402,
+          "archive_sha256": "9affec02d4e14bf866f5cc305c04302302032aef1941af5f28660cae9c78352f"
+        },
+        {
+          "case": "seeded-z8-v2",
+          "ready_rows": 13,
+          "transitions": 12,
+          "last_tick": 219726,
+          "archive_sha256": "7f321bb49f499b236846e851cd43b9422f8c38f16d1c45bff0b8fdbe0a7e9387"
+        },
+        {
+          "case": "seeded-z8-v3",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 618582,
+          "archive_sha256": "6117ff9ddbd634030c59bbfcaf5f227aa18b8302d1eb15e375e21460efd6b89a"
+        }
+      ],
+      "summary_sha256": "220760f56381494af2138a0ab2ed89ce7634bcb6da00e2dfe79858ef620fb4dc"
+    },
+    {
+      "campaign": "decoder-blocks",
+      "cases": 3,
+      "transitions": 72,
+      "ready_rows": 75,
+      "native_ticks": 806652,
+      "results": [
+        {
+          "case": "block6-sparse",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 156534,
+          "archive_sha256": "d5cdfc966c2fa75f7a9899ca9b7950455703f7b3ffa695e2870cfddb578646b1"
+        },
+        {
+          "case": "block6-n-head",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 218778,
+          "archive_sha256": "fa0c03498f6b4c1b9c37da51221c5ff1b800f28f126ddf861e96d175a3422637"
+        },
+        {
+          "case": "block3-unequal",
+          "ready_rows": 25,
+          "transitions": 24,
+          "last_tick": 431340,
+          "archive_sha256": "5a3fb958f473756969c397dd8a394fb9bb05ebad4b315c11f0e6e4588725e32a"
+        }
+      ],
+      "summary_sha256": "b39c719f04e9c674d4b2dbcd0b05f0439b39ae61f56b0ccf3435a10edca6986b"
+    }
+  ],
+  "driver_sha256": "391a7e80d0c1f479ee953e6e0422fb3a7a755a3ba144493c7049991fa9475467"
+}

@@ -1,0 +1,333 @@
+{
+  "actual_2dft": {
+    "agreement_compares": "Exact status, ordered static word, ordered moving word, and rejection reason",
+    "diagnostic_disagreements": [],
+    "family_rows": {
+      "A4-E": 8,
+      "A4-garbage:after-N": 23,
+      "A4-garbage:after-Y": 21,
+      "A4-garbage:short-empty": 26,
+      "C2-E": 29,
+      "O-garbage-moving:N": 29,
+      "O-garbage-moving:Y": 30,
+      "O-garbage:after-N": 23,
+      "O-garbage:after-Y": 25,
+      "O-garbage:short-empty": 23,
+      "O-moving:N": 29,
+      "O-moving:Y": 25,
+      "O-two-garbage-pairs": 30,
+      "acceptor-PC": 20,
+      "acceptor-SC": 23,
+      "acceptor-SC-RL": 28,
+      "acceptor-SC-SL": 27,
+      "acceptor-SL": 7,
+      "free:A4": 3,
+      "free:C2": 7,
+      "free:E": 30,
+      "free:L": 30,
+      "free:N": 6,
+      "free:O": 3,
+      "free:PC": 30,
+      "free:RL": 30,
+      "free:SC": 30,
+      "free:SL": 30,
+      "free:Y": 7,
+      "free:acceptor": 3,
+      "free:rejector": 3,
+      "ordinary-read-N": 30,
+      "ordinary-read-Y": 30,
+      "rejector-PC": 1,
+      "rejector-SL": 22,
+      "short-read-N": 30,
+      "short-read-RL": 30,
+      "short-read-SL": 30,
+      "short-read-Y": 27,
+      "static-garbage:after-N": 28,
+      "static-garbage:after-Y": 28,
+      "static-garbage:short-empty": 30,
+      "static-moving:N": 28,
+      "static-moving:Y": 28,
+      "v4-productive-garbage-prefixes": 30,
+      "v4-short-train-conversion": 30,
+      "whole-static-E": 28
+    },
+    "selected_native_phases": 30,
+    "semantic_mismatches": [],
+    "unexpected_noncontent_control_outputs": [],
+    "unique_full_guard_rows": 1068
+  },
+  "contract_coverage": {
+    "conversion": {
+      "represented_frames": 309778,
+      "sources": 144
+    },
+    "epsilon_control": {
+      "represented_frames": 851387,
+      "sources": 677
+    },
+    "exact": {
+      "represented_frames": 6971272,
+      "sources": 2703
+    },
+    "read_control": {
+      "represented_frames": 315322,
+      "sources": 122
+    }
+  },
+  "database": {
+    "bytes": 837115904,
+    "distinct_patterns": 165297,
+    "path": "/Users/mei/pyca_verification/PyCA_collision_database/data/collisions.sqlite3",
+    "represented_frames": 8447759,
+    "sha256": "74f6f7f4961c1603edf498f1e3306604fdefc251d3e091a1428329b6d10b32cd",
+    "sources": 3646
+  },
+  "diagnostic": {
+    "distinct_rows": 165297,
+    "full_crop_agreement_rows": 1068,
+    "kind": "global literal-hit/ownership diagnostic, not 2DFT execution",
+    "literal_side_context_cells": 32,
+    "noncontent_control_output_families": {},
+    "retained_ether_guard_cells": 148,
+    "semantic_mismatches": 0,
+    "unexpected_noncontent_control_outputs": 0
+  },
+  "elapsed_seconds": 644.08,
+  "family_totals": {
+    "A4-E": {
+      "represented_frames": 120120,
+      "sources": 120
+    },
+    "A4-garbage:after-N": {
+      "represented_frames": 10815,
+      "sources": 30
+    },
+    "A4-garbage:after-Y": {
+      "represented_frames": 17655,
+      "sources": 30
+    },
+    "A4-garbage:short-empty": {
+      "represented_frames": 11535,
+      "sources": 30
+    },
+    "C2-E": {
+      "represented_frames": 210210,
+      "sources": 210
+    },
+    "O-garbage-moving:N": {
+      "represented_frames": 5848,
+      "sources": 2
+    },
+    "O-garbage-moving:Y": {
+      "represented_frames": 5800,
+      "sources": 2
+    },
+    "O-garbage:after-N": {
+      "represented_frames": 52125,
+      "sources": 30
+    },
+    "O-garbage:after-Y": {
+      "represented_frames": 58965,
+      "sources": 30
+    },
+    "O-garbage:short-empty": {
+      "represented_frames": 52845,
+      "sources": 30
+    },
+    "O-moving:N": {
+      "represented_frames": 116250,
+      "sources": 60
+    },
+    "O-moving:Y": {
+      "represented_frames": 114810,
+      "sources": 60
+    },
+    "O-two-garbage-pairs": {
+      "represented_frames": 2390,
+      "sources": 1
+    },
+    "acceptor-PC": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "acceptor-RL": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "acceptor-SC": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "acceptor-SC-RL": {
+      "represented_frames": 57624,
+      "sources": 24
+    },
+    "acceptor-SC-SL": {
+      "represented_frames": 57624,
+      "sources": 24
+    },
+    "acceptor-SL": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "free:A4": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:C2": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:E": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:L": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:N": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:O": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:PC": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:RL": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:SC": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:SL": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:Y": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:acceptor": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "free:rejector": {
+      "represented_frames": 211,
+      "sources": 1
+    },
+    "ordinary-read-N": {
+      "represented_frames": 24808,
+      "sources": 8
+    },
+    "ordinary-read-Y": {
+      "represented_frames": 24808,
+      "sources": 8
+    },
+    "rejector-PC": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "rejector-RL": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "rejector-SC": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "rejector-SC-RL": {
+      "represented_frames": 57624,
+      "sources": 24
+    },
+    "rejector-SC-SL": {
+      "represented_frames": 57624,
+      "sources": 24
+    },
+    "rejector-SL": {
+      "represented_frames": 36030,
+      "sources": 30
+    },
+    "short-read-N": {
+      "represented_frames": 24808,
+      "sources": 8
+    },
+    "short-read-RL": {
+      "represented_frames": 144060,
+      "sources": 60
+    },
+    "short-read-SL": {
+      "represented_frames": 72030,
+      "sources": 30
+    },
+    "short-read-Y": {
+      "represented_frames": 24808,
+      "sources": 8
+    },
+    "static-garbage:after-N": {
+      "represented_frames": 1260420,
+      "sources": 420
+    },
+    "static-garbage:after-Y": {
+      "represented_frames": 1260420,
+      "sources": 420
+    },
+    "static-garbage:short-empty": {
+      "represented_frames": 1260420,
+      "sources": 420
+    },
+    "static-moving:N": {
+      "represented_frames": 1260420,
+      "sources": 420
+    },
+    "static-moving:Y": {
+      "represented_frames": 1260420,
+      "sources": 420
+    },
+    "v4-productive-garbage-prefixes": {
+      "represented_frames": 40722,
+      "sources": 12
+    },
+    "v4-short-train-conversion": {
+      "represented_frames": 26348,
+      "sources": 8
+    },
+    "whole-static-E": {
+      "represented_frames": 462420,
+      "sources": 420
+    }
+  },
+  "full_coverage_or_closure_proved": false,
+  "full_decoder_run": false,
+  "independent_static_endpoint_checks": 5188,
+  "independent_static_endpoint_failures": [],
+  "positive_controls": {
+    "read_control": {
+      "moving_outputs": 0,
+      "pattern_contract_pairs": 3420,
+      "represented_frames": 29220,
+      "static_outputs": 3420
+    }
+  },
+  "runtime_sha256": {
+    "pyca_verifier/canonical_content_patterns.py": "c54468781124593aa37928fccff4551a706aff5f74222df1c0c5acb0f8d83896",
+    "pyca_verifier/canonical_ossification.py": "03ee2dbd7288a413da15c4a658944f2b240cc737f8387a480d8ca45c1d4eb56d",
+    "pyca_verifier/data/moving_crossing_patterns.json": "11c6d0cc0c06101e0f3fef073f6cf8ce21c3e7138a24e873be220f2ad40c2efb",
+    "pyca_verifier/data/ossification_patterns.json": "e3d817705ef574e562cf2412beeb26f1097bcb2fbb2829a62effefea2ea233f6",
+    "pyca_verifier/data/static_crossing_patterns.json": "e019518807ff7a681585614bd72f0e0b0fd38eea946f4f50cf5d7990b54c7810",
+    "pyca_verifier/literal_matcher.py": "fff789635dea08a26ece9d03676ac897c891087f121fcc77a7d28f23359c1950",
+    "pyca_verifier/local_content_transducer.py": "c717d3774c621fea35b9f3822656bd5115ec33d13a5f6a05e5332bd82ac6706f",
+    "pyca_verifier/moving_crossing_patterns.py": "5a4022b4d41e2633b26f2aae0739d9bdee81587fd899ba47cf28b4046259314c",
+    "pyca_verifier/ossification_patterns.py": "96d80895d353f1f2bb7a0747926446a54ef5df8efccfa64325f8eab4927107b7",
+    "pyca_verifier/static_crossing_patterns.py": "bbde66c0575d1aef7c1a5424a5ab91a41e0133412af936caeb40626e06976725",
+    "pyca_verifier/transducer.py": "28fa271148212aa06e769ccbc11f1bdc799c5a010681eee54806c0991803736b",
+    "soundness/decoder_database.py": "205eee33fb3bd496da10957253056c1ae2498d0acea88998e0742ff84fb8c085"
+  },
+  "scope": "All stored words diagnostically; actual 2DFT on phase-stratified full guarded rows. Isolated sources are not complete ready/program/ossifier observations."
+}

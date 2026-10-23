@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "old_driver_sha256": "d66086eef4d20aa2a78d2205cf20f84fe224ae39eb464f3b0b978bccb2e878fa",
+  "current_driver_sha256": "6aad4d935e375aff5149175f153f7fa6286511d88933565d08bc1014bc340dd9",
+  "reason": "Refine three not-yet-started high-resource case horizons; preserve all active/completed native trials.",
+  "changes": {
+    "unequal-6-24-empty": {
+      "old_multisteps": 24,
+      "current_multisteps": 12
+    },
+    "unequal-24-6": {
+      "old_multisteps": 20,
+      "current_multisteps": 12
+    },
+    "all-y-long-empty": {
+      "old_multisteps": 24,
+      "current_multisteps": 12
+    }
+  },
+  "verification_ast_excluding_case_descriptors_sha256": "cc3c663349485ae1d8d2b8cc45efd169cf926f78bf136a0c0af17794e2a4f65c",
+  "verification_functions_identical": true,
+  "runtime_modified": false,
+  "requested_multisteps_before": 694,
+  "requested_multisteps_after": 662
+}

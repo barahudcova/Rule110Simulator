@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "description": "Reference collision-corpus inventory, verified by read-only SQLite queries and file hashing on 2026-10-23; independent of ready-pattern scan results.",
+  "database": {
+    "filename": "collisions.sqlite3",
+    "bytes": 837115904,
+    "sha256": "74f6f7f4961c1603edf498f1e3306604fdefc251d3e091a1428329b6d10b32cd",
+    "build_complete": true,
+    "indexed_candidate_sources": 13060,
+    "selected_sources": 3646,
+    "source_families": 52,
+    "frames": 8447759,
+    "distinct_patterns": 165297,
+    "pattern_width_range": [4120, 7600],
+    "input_core_width_range": [4, 3484],
+    "horizon_range": [210, 3840],
+    "time_stride": 1,
+    "ether_guard_each_side": 2048,
+    "source_evidence_classes": {
+      "local_contract_only": 3633,
+      "catalogue_particle_only": 13
+    },
+    "free_orbits_checked": 13,
+    "free_orbits_closed": 13,
+    "global_reachability_proved": false,
+    "global_closure_proved": false
+  },
+  "external_files": {
+    "sources.jsonl.gz": {
+      "bytes": 840724,
+      "sha256": "8d42ac1a94593adc26a9cf63e84da6095a61f179178db9a017532afbc8ae0058"
+    },
+    "build-generator.py": {
+      "bytes": 11353,
+      "sha256": "675cbe2a23cc6c7ca6c53fc47b0d41f9866adef26d56e1a564e0419ee0e17e59"
+    },
+    "source-inventory.json": {
+      "sha256": "069e1887991bf8dfdbd70510f47ec4b965b12b9042882cbd95d837354a8d72f3"
+    },
+    "collisions.report.json": {
+      "sha256": "6ee102d63a22abc57f1bf86ad2d6b658c3f7917284f6f348ef838cfa0f3d26d1"
+    },
+    "collisions.audit.json": {
+      "sha256": "55c07ba2d47fc191b7b4fce26cec78bc1a41e7af979dde6beb790ddd1d6087ab"
+    },
+    "generator-review.json": {
+      "sha256": "a6505b75d7b9b3b3fc0202094cb60a872d4a1859674adac53bc21623db615d0f"
+    }
+  },
+  "saved_validation_receipts": {
+    "generation_literal_rule_cells": 343025078,
+    "hashed_and_guard_checked_patterns": 165297,
+    "complete_source_tick_ranges_checked": 3646,
+    "saved_consecutive_row_pairs_checked": 10938,
+    "saved_consecutive_rule_cells_checked": 50637387,
+    "sqlite_quick_check": "ok",
+    "generator_exhaustive_step_cases": 8184,
+    "generator_random_cases": 200,
+    "generator_random_captures_checked": 7673,
+    "generator_random_capture_cells_checked": 33360197,
+    "reported_failures": []
+  }
+}
