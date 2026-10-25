@@ -8,7 +8,7 @@ only Python's standard library; Python 3.10 or later is required.
 
 The [recorded summary](decoder-cts-summary.json) identifies the exact source
 files and reports each tested input separately. Detailed reports and every
-complete ready row are generated locally in `soundness/results/decoder-cts/`,
+complete ready row are generated locally in `supplementary/results/decoder-cts/`,
 which is ignored by Git.
 
 **All 24 structured cases passed:** 662 verified transitions, 686 independently
@@ -134,7 +134,7 @@ check with a separate scope.
 From the repository root:
 
 ```sh
-python soundness/decoder_cts.py
+python supplementary/decoder_cts.py
 ```
 
 The campaign can take considerably longer than the finite encoder checks.
@@ -143,8 +143,8 @@ interrupted run can continue using the same command. Use `--no-resume` for a
 fresh execution. To inspect or select cases:
 
 ```sh
-python soundness/decoder_cts.py --list
-python soundness/decoder_cts.py --cases two-empty repeated-twelve-historical
+python supplementary/decoder_cts.py --list
+python supplementary/decoder_cts.py --cases two-empty repeated-twelve-historical
 ```
 
 Each case directory contains `result.json`, the ordinary runtime `report.json`,
@@ -156,8 +156,8 @@ actual full decoder inputs, so a repair can be checked without replaying the
 whole CA trajectory:
 
 ```sh
-python soundness/decoder_cts.py --replay \
-  soundness/results/decoder-cts/two-empty/ready-rows.jsonl.gz
+python supplementary/decoder_cts.py --replay \
+  supplementary/results/decoder-cts/two-empty/ready-rows.jsonl.gz
 ```
 
 After reviewing a full campaign, `--record` updates the small versioned

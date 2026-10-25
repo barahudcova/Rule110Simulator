@@ -1,5 +1,7 @@
 # Encoder verification
 
+For the supplementary material as a whole, see the [index](README.md).
+
 This folder checks the encoder shipped in this repository against Cook's local
 alignment conditions. It contains the report, executable checks, and a
 [compact record of the verified run](verified-summary.json). The checks use
@@ -18,6 +20,13 @@ runs compared with independent cyclic-tag calculations. It links to the test
 drivers, per-input results, and exact-row replay instructions. These are
 separate tests; `run.py` runs the encoder checks below.
 
+The [timing-condition report](TIMING_CONDITIONS.md) checks particle density,
+boundary collisions, cancellation of crossing histories, and the gap at
+symbol creation. It provides native phase checks and an arithmetic argument
+within Cook's intended collision network. It also explains why the implemented
+decoder retains a complete intact program cycle when identifying the current
+appendant. The supplemental commands and receipts are linked in that report.
+
 **All recorded encoder checks pass.** The result establishes finite source-alignment
 identities and local binary collision contracts. The spacing argument is
 conditional on Cook's intended collision network, including its encounter
@@ -30,17 +39,17 @@ finite coverage.
 From the repository root, with Python 3.10 or later:
 
 ```sh
-python soundness/run.py
+python supplementary/run.py
 ```
 
 No installation or third-party packages are required. The command returns a
 nonzero exit status on a failed check and writes detailed receipts to
-`soundness/results/`, which is ignored by Git. `--output PATH` changes that
+`supplementary/results/`, which is ignored by Git. `--output PATH` changes that
 destination. Do not use Python's `-O` option: the checks require assertions.
 
 The receipts identify the audited source files by SHA-256. The runner also
 checks that those files remain unchanged during the run. After reviewing a
-change to the encoder or checks, `python soundness/run.py --record` updates
+change to the encoder or checks, `python supplementary/run.py --record` updates
 the small versioned `verified-summary.json`; ordinary runs leave it unchanged.
 
 ## Measured connections
@@ -124,7 +133,9 @@ inequality for the actual first productive read. This is an all-input
 arithmetic argument within the prescribed collision network. In addition,
 1,859 productive initial words across eight program structures check the
 implementation of those inequalities. The initial padding's symbolic lookup
-is described in [INITIAL_GAP.md](../INITIAL_GAP.md).
+is described in [INITIAL_GAP.md](INITIAL_GAP.md). The exact recurring gap
+between six-ossifier groups, including its paper-unit conversion and phase
+rounding, is specified in [OSSIFIER_GAP.md](OSSIFIER_GAP.md).
 
 Source continuation is checked byte for byte: complete program strings equal
 successive chunks in 7,680 cases, and ossifier strings in 162 cases. The

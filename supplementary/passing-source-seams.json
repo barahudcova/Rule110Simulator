@@ -1,0 +1,5073 @@
+{
+  "passed": true,
+  "minimum_source_e_difference": 1325,
+  "component_native_trials": 360,
+  "garbage_offsets_relative_L2": {
+    "L": {
+      "Y": [
+        -446,
+        4587
+      ],
+      "N": [
+        -446,
+        1395
+      ]
+    },
+    "short": {
+      "Y": [
+        -446,
+        1731
+      ],
+      "N": [
+        -446,
+        1731
+      ]
+    }
+  },
+  "raw_to_prepared_source_gamma": {
+    "RL": {
+      "26": 248,
+      "27": 94,
+      "28": 150,
+      "29": 206,
+      "0": 262,
+      "1": 318,
+      "2": 164,
+      "3": 220,
+      "4": 276,
+      "5": 122,
+      "6": 178,
+      "7": 234,
+      "8": 290,
+      "9": 136,
+      "10": 192,
+      "11": 248,
+      "12": 94,
+      "13": 150,
+      "14": 206,
+      "15": 262,
+      "16": 318,
+      "17": 164,
+      "18": 220,
+      "19": 276,
+      "20": 122,
+      "21": 178,
+      "22": 234,
+      "23": 290,
+      "24": 136,
+      "25": 192
+    },
+    "SL": {
+      "29": 206,
+      "0": 262,
+      "1": 318,
+      "2": 164,
+      "3": 220,
+      "4": 276,
+      "5": 122,
+      "6": 178,
+      "7": 234,
+      "8": 290,
+      "9": 136,
+      "10": 192,
+      "11": 248,
+      "12": 94,
+      "13": 150,
+      "14": 206,
+      "15": 262,
+      "16": 318,
+      "17": 164,
+      "18": 220,
+      "19": 276,
+      "20": 122,
+      "21": 178,
+      "22": 234,
+      "23": 290,
+      "24": 136,
+      "25": 192,
+      "26": 248,
+      "27": 94,
+      "28": 150
+    }
+  },
+  "native": {
+    "garbage_read_cases": [
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 0,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 1,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 2,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 3,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 4,
+        "ether_tiles": 21,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 5,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "Y",
+        "static_phase": 6,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          4587
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 0,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 1,
+        "ether_tiles": 21,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 2,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 3,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 4,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 5,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "L",
+        "consumed": "N",
+        "static_phase": 6,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          1395
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 0,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 1,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 2,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 3,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 4,
+        "ether_tiles": 21,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 5,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "Y",
+        "static_phase": 6,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 0,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 1,
+        "ether_tiles": 21,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 2,
+        "ether_tiles": 23,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 3,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 4,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 5,
+        "ether_tiles": 20,
+        "offsets": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "leader": "short",
+        "consumed": "N",
+        "static_phase": 6,
+        "ether_tiles": 22,
+        "offsets": [
+          -446,
+          1731
+        ]
+      }
+    ],
+    "raw_preparation_cases": [
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 0,
+        "raw_family": "RL",
+        "raw_phase": 26,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 0,
+        "raw_family": "RL",
+        "raw_phase": 26,
+        "marker": 4,
+        "gamma": 248
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 0,
+        "raw_family": "SL",
+        "raw_phase": 29,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 1,
+        "raw_family": "RL",
+        "raw_phase": 27,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 1,
+        "raw_family": "RL",
+        "raw_phase": 27,
+        "marker": 4,
+        "gamma": 94
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 1,
+        "raw_family": "SL",
+        "raw_phase": 0,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 2,
+        "raw_family": "RL",
+        "raw_phase": 28,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 2,
+        "raw_family": "RL",
+        "raw_phase": 28,
+        "marker": 4,
+        "gamma": 150
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 2,
+        "raw_family": "SL",
+        "raw_phase": 1,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 3,
+        "raw_family": "RL",
+        "raw_phase": 29,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 3,
+        "raw_family": "RL",
+        "raw_phase": 29,
+        "marker": 4,
+        "gamma": 206
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 3,
+        "raw_family": "SL",
+        "raw_phase": 2,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 4,
+        "raw_family": "RL",
+        "raw_phase": 0,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 4,
+        "raw_family": "RL",
+        "raw_phase": 0,
+        "marker": 4,
+        "gamma": 262
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 4,
+        "raw_family": "SL",
+        "raw_phase": 3,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 5,
+        "raw_family": "RL",
+        "raw_phase": 1,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 5,
+        "raw_family": "RL",
+        "raw_phase": 1,
+        "marker": 4,
+        "gamma": 318
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 5,
+        "raw_family": "SL",
+        "raw_phase": 4,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 6,
+        "raw_family": "RL",
+        "raw_phase": 2,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 6,
+        "raw_family": "RL",
+        "raw_phase": 2,
+        "marker": 4,
+        "gamma": 164
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 6,
+        "raw_family": "SL",
+        "raw_phase": 5,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 7,
+        "raw_family": "RL",
+        "raw_phase": 3,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 7,
+        "raw_family": "RL",
+        "raw_phase": 3,
+        "marker": 4,
+        "gamma": 220
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 7,
+        "raw_family": "SL",
+        "raw_phase": 6,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 8,
+        "raw_family": "RL",
+        "raw_phase": 4,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 8,
+        "raw_family": "RL",
+        "raw_phase": 4,
+        "marker": 4,
+        "gamma": 276
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 8,
+        "raw_family": "SL",
+        "raw_phase": 7,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 9,
+        "raw_family": "RL",
+        "raw_phase": 5,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 9,
+        "raw_family": "RL",
+        "raw_phase": 5,
+        "marker": 4,
+        "gamma": 122
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 9,
+        "raw_family": "SL",
+        "raw_phase": 8,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 10,
+        "raw_family": "RL",
+        "raw_phase": 6,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 10,
+        "raw_family": "RL",
+        "raw_phase": 6,
+        "marker": 4,
+        "gamma": 178
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 10,
+        "raw_family": "SL",
+        "raw_phase": 9,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 11,
+        "raw_family": "RL",
+        "raw_phase": 7,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 11,
+        "raw_family": "RL",
+        "raw_phase": 7,
+        "marker": 4,
+        "gamma": 234
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 11,
+        "raw_family": "SL",
+        "raw_phase": 10,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 12,
+        "raw_family": "RL",
+        "raw_phase": 8,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 12,
+        "raw_family": "RL",
+        "raw_phase": 8,
+        "marker": 4,
+        "gamma": 290
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 12,
+        "raw_family": "SL",
+        "raw_phase": 11,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 13,
+        "raw_family": "RL",
+        "raw_phase": 9,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 13,
+        "raw_family": "RL",
+        "raw_phase": 9,
+        "marker": 4,
+        "gamma": 136
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 13,
+        "raw_family": "SL",
+        "raw_phase": 12,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 14,
+        "raw_family": "RL",
+        "raw_phase": 10,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 14,
+        "raw_family": "RL",
+        "raw_phase": 10,
+        "marker": 4,
+        "gamma": 192
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 14,
+        "raw_family": "SL",
+        "raw_phase": 13,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 15,
+        "raw_family": "RL",
+        "raw_phase": 11,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 15,
+        "raw_family": "RL",
+        "raw_phase": 11,
+        "marker": 4,
+        "gamma": 248
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 15,
+        "raw_family": "SL",
+        "raw_phase": 14,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 16,
+        "raw_family": "RL",
+        "raw_phase": 12,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 16,
+        "raw_family": "RL",
+        "raw_phase": 12,
+        "marker": 4,
+        "gamma": 94
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 16,
+        "raw_family": "SL",
+        "raw_phase": 15,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 17,
+        "raw_family": "RL",
+        "raw_phase": 13,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 17,
+        "raw_family": "RL",
+        "raw_phase": 13,
+        "marker": 4,
+        "gamma": 150
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 17,
+        "raw_family": "SL",
+        "raw_phase": 16,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 18,
+        "raw_family": "RL",
+        "raw_phase": 14,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 18,
+        "raw_family": "RL",
+        "raw_phase": 14,
+        "marker": 4,
+        "gamma": 206
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 18,
+        "raw_family": "SL",
+        "raw_phase": 17,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 19,
+        "raw_family": "RL",
+        "raw_phase": 15,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 19,
+        "raw_family": "RL",
+        "raw_phase": 15,
+        "marker": 4,
+        "gamma": 262
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 19,
+        "raw_family": "SL",
+        "raw_phase": 18,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 20,
+        "raw_family": "RL",
+        "raw_phase": 16,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 20,
+        "raw_family": "RL",
+        "raw_phase": 16,
+        "marker": 4,
+        "gamma": 318
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 20,
+        "raw_family": "SL",
+        "raw_phase": 19,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 21,
+        "raw_family": "RL",
+        "raw_phase": 17,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 21,
+        "raw_family": "RL",
+        "raw_phase": 17,
+        "marker": 4,
+        "gamma": 164
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 21,
+        "raw_family": "SL",
+        "raw_phase": 20,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 22,
+        "raw_family": "RL",
+        "raw_phase": 18,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 22,
+        "raw_family": "RL",
+        "raw_phase": 18,
+        "marker": 4,
+        "gamma": 220
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 22,
+        "raw_family": "SL",
+        "raw_phase": 21,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 23,
+        "raw_family": "RL",
+        "raw_phase": 19,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 23,
+        "raw_family": "RL",
+        "raw_phase": 19,
+        "marker": 4,
+        "gamma": 276
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 23,
+        "raw_family": "SL",
+        "raw_phase": 22,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 24,
+        "raw_family": "RL",
+        "raw_phase": 20,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 24,
+        "raw_family": "RL",
+        "raw_phase": 20,
+        "marker": 4,
+        "gamma": 122
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 24,
+        "raw_family": "SL",
+        "raw_phase": 23,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 25,
+        "raw_family": "RL",
+        "raw_phase": 21,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 25,
+        "raw_family": "RL",
+        "raw_phase": 21,
+        "marker": 4,
+        "gamma": 178
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 25,
+        "raw_family": "SL",
+        "raw_phase": 24,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 26,
+        "raw_family": "RL",
+        "raw_phase": 22,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 26,
+        "raw_family": "RL",
+        "raw_phase": 22,
+        "marker": 4,
+        "gamma": 234
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 26,
+        "raw_family": "SL",
+        "raw_phase": 25,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 27,
+        "raw_family": "RL",
+        "raw_phase": 23,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 27,
+        "raw_family": "RL",
+        "raw_phase": 23,
+        "marker": 4,
+        "gamma": 290
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 27,
+        "raw_family": "SL",
+        "raw_phase": 26,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 28,
+        "raw_family": "RL",
+        "raw_phase": 24,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 28,
+        "raw_family": "RL",
+        "raw_phase": 24,
+        "marker": 4,
+        "gamma": 136
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 28,
+        "raw_family": "SL",
+        "raw_phase": 27,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 29,
+        "raw_family": "RL",
+        "raw_phase": 25,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 29,
+        "raw_family": "RL",
+        "raw_phase": 25,
+        "marker": 4,
+        "gamma": 192
+      },
+      {
+        "incoming": "acceptor",
+        "previous_SC_phase": 29,
+        "raw_family": "SL",
+        "raw_phase": 28,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 0,
+        "raw_family": "RL",
+        "raw_phase": 26,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 0,
+        "raw_family": "RL",
+        "raw_phase": 26,
+        "marker": 4,
+        "gamma": 248
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 0,
+        "raw_family": "SL",
+        "raw_phase": 29,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 1,
+        "raw_family": "RL",
+        "raw_phase": 27,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 1,
+        "raw_family": "RL",
+        "raw_phase": 27,
+        "marker": 4,
+        "gamma": 94
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 1,
+        "raw_family": "SL",
+        "raw_phase": 0,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 2,
+        "raw_family": "RL",
+        "raw_phase": 28,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 2,
+        "raw_family": "RL",
+        "raw_phase": 28,
+        "marker": 4,
+        "gamma": 150
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 2,
+        "raw_family": "SL",
+        "raw_phase": 1,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 3,
+        "raw_family": "RL",
+        "raw_phase": 29,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 3,
+        "raw_family": "RL",
+        "raw_phase": 29,
+        "marker": 4,
+        "gamma": 206
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 3,
+        "raw_family": "SL",
+        "raw_phase": 2,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 4,
+        "raw_family": "RL",
+        "raw_phase": 0,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 4,
+        "raw_family": "RL",
+        "raw_phase": 0,
+        "marker": 4,
+        "gamma": 262
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 4,
+        "raw_family": "SL",
+        "raw_phase": 3,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 5,
+        "raw_family": "RL",
+        "raw_phase": 1,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 5,
+        "raw_family": "RL",
+        "raw_phase": 1,
+        "marker": 4,
+        "gamma": 318
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 5,
+        "raw_family": "SL",
+        "raw_phase": 4,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 6,
+        "raw_family": "RL",
+        "raw_phase": 2,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 6,
+        "raw_family": "RL",
+        "raw_phase": 2,
+        "marker": 4,
+        "gamma": 164
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 6,
+        "raw_family": "SL",
+        "raw_phase": 5,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 7,
+        "raw_family": "RL",
+        "raw_phase": 3,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 7,
+        "raw_family": "RL",
+        "raw_phase": 3,
+        "marker": 4,
+        "gamma": 220
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 7,
+        "raw_family": "SL",
+        "raw_phase": 6,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 8,
+        "raw_family": "RL",
+        "raw_phase": 4,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 8,
+        "raw_family": "RL",
+        "raw_phase": 4,
+        "marker": 4,
+        "gamma": 276
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 8,
+        "raw_family": "SL",
+        "raw_phase": 7,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 9,
+        "raw_family": "RL",
+        "raw_phase": 5,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 9,
+        "raw_family": "RL",
+        "raw_phase": 5,
+        "marker": 4,
+        "gamma": 122
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 9,
+        "raw_family": "SL",
+        "raw_phase": 8,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 10,
+        "raw_family": "RL",
+        "raw_phase": 6,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 10,
+        "raw_family": "RL",
+        "raw_phase": 6,
+        "marker": 4,
+        "gamma": 178
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 10,
+        "raw_family": "SL",
+        "raw_phase": 9,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 11,
+        "raw_family": "RL",
+        "raw_phase": 7,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 11,
+        "raw_family": "RL",
+        "raw_phase": 7,
+        "marker": 4,
+        "gamma": 234
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 11,
+        "raw_family": "SL",
+        "raw_phase": 10,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 12,
+        "raw_family": "RL",
+        "raw_phase": 8,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 12,
+        "raw_family": "RL",
+        "raw_phase": 8,
+        "marker": 4,
+        "gamma": 290
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 12,
+        "raw_family": "SL",
+        "raw_phase": 11,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 13,
+        "raw_family": "RL",
+        "raw_phase": 9,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 13,
+        "raw_family": "RL",
+        "raw_phase": 9,
+        "marker": 4,
+        "gamma": 136
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 13,
+        "raw_family": "SL",
+        "raw_phase": 12,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 14,
+        "raw_family": "RL",
+        "raw_phase": 10,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 14,
+        "raw_family": "RL",
+        "raw_phase": 10,
+        "marker": 4,
+        "gamma": 192
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 14,
+        "raw_family": "SL",
+        "raw_phase": 13,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 15,
+        "raw_family": "RL",
+        "raw_phase": 11,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 15,
+        "raw_family": "RL",
+        "raw_phase": 11,
+        "marker": 4,
+        "gamma": 248
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 15,
+        "raw_family": "SL",
+        "raw_phase": 14,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 16,
+        "raw_family": "RL",
+        "raw_phase": 12,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 16,
+        "raw_family": "RL",
+        "raw_phase": 12,
+        "marker": 4,
+        "gamma": 94
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 16,
+        "raw_family": "SL",
+        "raw_phase": 15,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 17,
+        "raw_family": "RL",
+        "raw_phase": 13,
+        "marker": 0,
+        "gamma": 150
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 17,
+        "raw_family": "RL",
+        "raw_phase": 13,
+        "marker": 4,
+        "gamma": 150
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 17,
+        "raw_family": "SL",
+        "raw_phase": 16,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 18,
+        "raw_family": "RL",
+        "raw_phase": 14,
+        "marker": 0,
+        "gamma": 206
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 18,
+        "raw_family": "RL",
+        "raw_phase": 14,
+        "marker": 4,
+        "gamma": 206
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 18,
+        "raw_family": "SL",
+        "raw_phase": 17,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 19,
+        "raw_family": "RL",
+        "raw_phase": 15,
+        "marker": 0,
+        "gamma": 262
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 19,
+        "raw_family": "RL",
+        "raw_phase": 15,
+        "marker": 4,
+        "gamma": 262
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 19,
+        "raw_family": "SL",
+        "raw_phase": 18,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 20,
+        "raw_family": "RL",
+        "raw_phase": 16,
+        "marker": 0,
+        "gamma": 318
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 20,
+        "raw_family": "RL",
+        "raw_phase": 16,
+        "marker": 4,
+        "gamma": 318
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 20,
+        "raw_family": "SL",
+        "raw_phase": 19,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 21,
+        "raw_family": "RL",
+        "raw_phase": 17,
+        "marker": 0,
+        "gamma": 164
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 21,
+        "raw_family": "RL",
+        "raw_phase": 17,
+        "marker": 4,
+        "gamma": 164
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 21,
+        "raw_family": "SL",
+        "raw_phase": 20,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 22,
+        "raw_family": "RL",
+        "raw_phase": 18,
+        "marker": 0,
+        "gamma": 220
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 22,
+        "raw_family": "RL",
+        "raw_phase": 18,
+        "marker": 4,
+        "gamma": 220
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 22,
+        "raw_family": "SL",
+        "raw_phase": 21,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 23,
+        "raw_family": "RL",
+        "raw_phase": 19,
+        "marker": 0,
+        "gamma": 276
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 23,
+        "raw_family": "RL",
+        "raw_phase": 19,
+        "marker": 4,
+        "gamma": 276
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 23,
+        "raw_family": "SL",
+        "raw_phase": 22,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 24,
+        "raw_family": "RL",
+        "raw_phase": 20,
+        "marker": 0,
+        "gamma": 122
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 24,
+        "raw_family": "RL",
+        "raw_phase": 20,
+        "marker": 4,
+        "gamma": 122
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 24,
+        "raw_family": "SL",
+        "raw_phase": 23,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 25,
+        "raw_family": "RL",
+        "raw_phase": 21,
+        "marker": 0,
+        "gamma": 178
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 25,
+        "raw_family": "RL",
+        "raw_phase": 21,
+        "marker": 4,
+        "gamma": 178
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 25,
+        "raw_family": "SL",
+        "raw_phase": 24,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 26,
+        "raw_family": "RL",
+        "raw_phase": 22,
+        "marker": 0,
+        "gamma": 234
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 26,
+        "raw_family": "RL",
+        "raw_phase": 22,
+        "marker": 4,
+        "gamma": 234
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 26,
+        "raw_family": "SL",
+        "raw_phase": 25,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 27,
+        "raw_family": "RL",
+        "raw_phase": 23,
+        "marker": 0,
+        "gamma": 290
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 27,
+        "raw_family": "RL",
+        "raw_phase": 23,
+        "marker": 4,
+        "gamma": 290
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 27,
+        "raw_family": "SL",
+        "raw_phase": 26,
+        "marker": 0,
+        "gamma": 248
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 28,
+        "raw_family": "RL",
+        "raw_phase": 24,
+        "marker": 0,
+        "gamma": 136
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 28,
+        "raw_family": "RL",
+        "raw_phase": 24,
+        "marker": 4,
+        "gamma": 136
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 28,
+        "raw_family": "SL",
+        "raw_phase": 27,
+        "marker": 0,
+        "gamma": 94
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 29,
+        "raw_family": "RL",
+        "raw_phase": 25,
+        "marker": 0,
+        "gamma": 192
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 29,
+        "raw_family": "RL",
+        "raw_phase": 25,
+        "marker": 4,
+        "gamma": 192
+      },
+      {
+        "incoming": "rejector",
+        "previous_SC_phase": 29,
+        "raw_family": "SL",
+        "raw_phase": 28,
+        "marker": 0,
+        "gamma": 150
+      }
+    ],
+    "direct_short_preparation_cases": [
+      {
+        "raw_phase": 0,
+        "rejector_phase": 0,
+        "ether_tiles": 4,
+        "gamma": 262
+      },
+      {
+        "raw_phase": 1,
+        "rejector_phase": 1,
+        "ether_tiles": 5,
+        "gamma": 318
+      },
+      {
+        "raw_phase": 2,
+        "rejector_phase": 2,
+        "ether_tiles": 4,
+        "gamma": 164
+      },
+      {
+        "raw_phase": 3,
+        "rejector_phase": 0,
+        "ether_tiles": 4,
+        "gamma": 220
+      },
+      {
+        "raw_phase": 4,
+        "rejector_phase": 1,
+        "ether_tiles": 5,
+        "gamma": 276
+      },
+      {
+        "raw_phase": 5,
+        "rejector_phase": 2,
+        "ether_tiles": 4,
+        "gamma": 122
+      },
+      {
+        "raw_phase": 6,
+        "rejector_phase": 0,
+        "ether_tiles": 4,
+        "gamma": 178
+      },
+      {
+        "raw_phase": 7,
+        "rejector_phase": 1,
+        "ether_tiles": 5,
+        "gamma": 234
+      },
+      {
+        "raw_phase": 8,
+        "rejector_phase": 2,
+        "ether_tiles": 5,
+        "gamma": 290
+      },
+      {
+        "raw_phase": 9,
+        "rejector_phase": 0,
+        "ether_tiles": 4,
+        "gamma": 136
+      },
+      {
+        "raw_phase": 10,
+        "rejector_phase": 1,
+        "ether_tiles": 5,
+        "gamma": 192
+      },
+      {
+        "raw_phase": 11,
+        "rejector_phase": 2,
+        "ether_tiles": 5,
+        "gamma": 248
+      },
+      {
+        "raw_phase": 12,
+        "rejector_phase": 0,
+        "ether_tiles": 4,
+        "gamma": 94
+      },
+      {
+        "raw_phase": 13,
+        "rejector_phase": 1,
+        "ether_tiles": 5,
+        "gamma": 150
+      },
+      {
+        "raw_phase": 14,
+        "rejector_phase": 2,
+        "ether_tiles": 5,
+        "gamma": 206
+      },
+      {
+        "raw_phase": 15,
+        "rejector_phase": 0,
+        "ether_tiles": 5,
+        "gamma": 262
+      },
+      {
+        "raw_phase": 16,
+        "rejector_phase": 1,
+        "ether_tiles": 4,
+        "gamma": 318
+      },
+      {
+        "raw_phase": 17,
+        "rejector_phase": 2,
+        "ether_tiles": 5,
+        "gamma": 164
+      },
+      {
+        "raw_phase": 18,
+        "rejector_phase": 0,
+        "ether_tiles": 5,
+        "gamma": 220
+      },
+      {
+        "raw_phase": 19,
+        "rejector_phase": 1,
+        "ether_tiles": 4,
+        "gamma": 276
+      },
+      {
+        "raw_phase": 20,
+        "rejector_phase": 2,
+        "ether_tiles": 5,
+        "gamma": 122
+      },
+      {
+        "raw_phase": 21,
+        "rejector_phase": 0,
+        "ether_tiles": 5,
+        "gamma": 178
+      },
+      {
+        "raw_phase": 22,
+        "rejector_phase": 1,
+        "ether_tiles": 4,
+        "gamma": 234
+      },
+      {
+        "raw_phase": 23,
+        "rejector_phase": 2,
+        "ether_tiles": 4,
+        "gamma": 290
+      },
+      {
+        "raw_phase": 24,
+        "rejector_phase": 0,
+        "ether_tiles": 5,
+        "gamma": 136
+      },
+      {
+        "raw_phase": 25,
+        "rejector_phase": 1,
+        "ether_tiles": 4,
+        "gamma": 192
+      },
+      {
+        "raw_phase": 26,
+        "rejector_phase": 2,
+        "ether_tiles": 4,
+        "gamma": 248
+      },
+      {
+        "raw_phase": 27,
+        "rejector_phase": 0,
+        "ether_tiles": 5,
+        "gamma": 94
+      },
+      {
+        "raw_phase": 28,
+        "rejector_phase": 1,
+        "ether_tiles": 4,
+        "gamma": 150
+      },
+      {
+        "raw_phase": 29,
+        "rejector_phase": 2,
+        "ether_tiles": 4,
+        "gamma": 206
+      }
+    ],
+    "short_successor_cases": [
+      {
+        "previous_raw_short_phase": 0,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 29,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 0,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 29,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 0,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 29,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 0,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 29,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 0,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 2,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 0,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 2,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 1,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 0,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 1,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 0,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 1,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 0,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 1,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 0,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 1,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 3,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 1,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 3,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 2,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 1,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 2,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 1,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 2,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 1,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 2,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 1,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 2,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 4,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 2,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 4,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 3,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 2,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 3,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 2,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 3,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 2,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 3,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 2,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 3,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 5,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 3,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 5,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 4,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 3,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 4,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 3,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 4,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 3,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 4,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 3,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 4,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 6,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 4,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 6,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 5,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 4,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 5,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 4,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 5,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 4,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 5,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 4,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 5,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 7,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 5,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 7,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 6,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 5,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 6,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 5,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 6,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 5,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 6,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 5,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 6,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 8,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 6,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 8,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 7,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 6,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 7,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 6,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 7,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 6,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 7,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 6,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 7,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 9,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 7,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 9,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 8,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 7,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 8,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 7,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 8,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 7,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 8,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 7,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 8,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 10,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 8,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 10,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 9,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 8,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 9,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 8,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 9,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 8,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 9,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 8,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 9,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 11,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 9,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 11,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 10,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 9,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 10,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 9,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 10,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 9,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 10,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 9,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 10,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 12,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 10,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 12,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 11,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 10,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 11,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 10,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 11,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 10,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 11,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 10,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 11,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 13,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 11,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 13,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 12,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 11,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 12,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 11,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 12,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 11,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 12,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 11,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 12,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 14,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 12,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 14,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 13,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 12,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 13,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 12,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 13,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 12,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 13,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 12,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 13,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 15,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 13,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 15,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 14,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 13,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 14,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 13,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 14,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 13,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 14,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 13,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 14,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 16,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 14,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 16,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 15,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 14,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 15,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 14,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 15,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 14,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 15,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 14,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 15,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 17,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 15,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 17,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 16,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 15,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 16,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 15,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 16,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 15,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 16,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 15,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 16,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 18,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 16,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 18,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 17,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 16,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 17,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 16,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 17,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 16,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 17,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 16,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 17,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 19,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 17,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 19,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 18,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 17,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 18,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 17,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 18,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 17,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 18,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 17,
+        "gamma": 164,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 18,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 20,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 18,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 20,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 19,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 18,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 19,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 18,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 19,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 18,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 19,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 18,
+        "gamma": 220,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 19,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 21,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 19,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 21,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 20,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 19,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 20,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 19,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 20,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 19,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 20,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 19,
+        "gamma": 276,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 20,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 22,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 20,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 22,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 21,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 20,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 21,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 20,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 21,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 20,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 21,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 20,
+        "gamma": 122,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 21,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 23,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 21,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 23,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 22,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 21,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 22,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 21,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 22,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 21,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 22,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 21,
+        "gamma": 178,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 22,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 24,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 22,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 24,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 23,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 22,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 23,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 22,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 23,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 22,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 23,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 22,
+        "gamma": 234,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 23,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 25,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 23,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 25,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 24,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 23,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 24,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 23,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 24,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 23,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 24,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 23,
+        "gamma": 290,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 24,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 26,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 24,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 26,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 25,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 24,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 25,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 24,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 25,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 24,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 25,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 24,
+        "gamma": 136,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 25,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 27,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 25,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 27,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 26,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 25,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 26,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 25,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 26,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 25,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 26,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 25,
+        "gamma": 192,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 26,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 28,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 26,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 28,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 27,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 26,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 27,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 26,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 27,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 26,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 27,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 26,
+        "gamma": 248,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 27,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 29,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 27,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 29,
+        "gamma": 206,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 28,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 27,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 28,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 27,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 28,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 27,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 28,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 27,
+        "gamma": 94,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 28,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 0,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 28,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 0,
+        "gamma": 262,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 29,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 28,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 29,
+        "table": "sl_rl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 28,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 29,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "Y",
+        "next_raw_phase": 28,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 29,
+        "table": "sl_rl",
+        "marker": 4,
+        "consumed": "N",
+        "next_raw_phase": 28,
+        "gamma": 150,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 29,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "Y",
+        "next_raw_phase": 1,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      },
+      {
+        "previous_raw_short_phase": 29,
+        "table": "sl_sl",
+        "marker": 0,
+        "consumed": "N",
+        "next_raw_phase": 1,
+        "gamma": 318,
+        "outgoing_garbage_e": [
+          -446,
+          1731
+        ]
+      }
+    ]
+  },
+  "bounds": {
+    "seams": [
+      {
+        "kind": "GD",
+        "phase": 0,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 0,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 0,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 0,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 0,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 1,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 1,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 1,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 1,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 1,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 2,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 2,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 2,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 2,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 2,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 3,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 3,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 3,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 3,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 3,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 4,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 4,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 4,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 4,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 4,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 5,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 5,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 5,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 5,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 5,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 6,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 6,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 6,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 6,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 6,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 7,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 7,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 7,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 7,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 7,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 8,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 8,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 8,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 8,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 8,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 9,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 9,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 9,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 9,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 9,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 10,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 10,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 10,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 10,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 10,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 11,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 11,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 11,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 11,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 11,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 12,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 12,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 12,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 12,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 12,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 13,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 13,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 13,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 13,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 13,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 14,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 14,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 14,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 14,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 14,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 15,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 15,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 15,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 15,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 15,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 16,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 16,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 16,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 16,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 16,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 17,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 17,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 17,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 17,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 17,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 18,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 18,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 18,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 18,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 18,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 19,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 19,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 19,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 19,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 19,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 20,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 20,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 20,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 20,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 20,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 21,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 21,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 21,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 21,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 21,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 22,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 22,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 22,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 22,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 22,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 23,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 23,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 23,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 23,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 23,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 24,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 24,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 24,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 24,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 24,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 25,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 25,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 25,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 25,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 25,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 26,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 26,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 26,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 26,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 26,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 27,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 27,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 27,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 27,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 27,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 28,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 28,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 28,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 28,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 28,
+        "table": "sl_sl",
+        "delta_e": 1325
+      },
+      {
+        "kind": "GD",
+        "phase": 29,
+        "delta_e": 2541
+      },
+      {
+        "kind": "DG",
+        "phase": 29,
+        "table": "rl",
+        "delta_e": 1885
+      },
+      {
+        "kind": "DG",
+        "phase": 29,
+        "table": "sc_sl",
+        "delta_e": 2893
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 29,
+        "table": "sl_rl",
+        "delta_e": 1997
+      },
+      {
+        "kind": "GG_empty",
+        "phase": 29,
+        "table": "sl_sl",
+        "delta_e": 1325
+      }
+    ],
+    "lower_bounds_e": {
+      "GD": 2541,
+      "DG": 1885,
+      "GG_empty": 1325,
+      "DD": 1757,
+      "GG_within": 1841,
+      "GG_rejected_nonempty_lower_bound": 39755,
+      "initial_GD": 2541,
+      "initial_GG_rejected_nonempty_lower_bound": 39923
+    },
+    "minimum_component_widths": {
+      "RL": 324,
+      "PC": 196,
+      "SC": 196
+    },
+    "DD_two_letter_cases": 240,
+    "minimum_source_e_difference": 1325
+  },
+  "incoming_difference_formula": "delta_e_at_fixed_surviving_C2 = delta_e_source + 684*d; d>=0 intervening completed reads",
+  "conditional_minimum_incoming_e_difference": 1325,
+  "minimum_ideal_arrival_separation_ticks": "(1325-105)/4 = 305",
+  "scope": "Finite native emission calibrations and table inequalities, conditional on the intended ordered crossing/source network. No global CA embedding proof.",
+  "source_sha256": {
+    "supplementary/passing_source_seams.py": "7ef7f0ba0db4b78bd2f41b25e951bcc1cc3ff96ec14c2a2b80e466f3d5c3409b",
+    "supplementary/program_joins.py": "44fd1dced7afd31a83560c6baa69f8f81ab17998652f04df2fd58b04dbe39ff4",
+    "supplementary/distance_conventions.py": "4643cb78726c48f159c3a910bed1cdee4363351dde25cc85dcce6104931612da",
+    "pyca_verifier/encoder.py": "718dcc3cfbc987d67ba2c0925d8ca1afcffdd6084a5255a7094865ac68086a63",
+    "pyca_verifier/patterns.py": "5fc8b3271e70007f1dec8a615a16a75108850d55ebcade63dc9f83d8032f8185",
+    "pyca_verifier/automaton.py": "017120fe19a6a60cca7e3eba458855f3acd1ecd2880d3bfaf1ccc973010c58ce",
+    "pyca_verifier/data/gliders.json": "c1d5c22d602f4943b86055af6efae1d7eb73d2ab24a7dd159c085348b0565718",
+    "pyca_verifier/data/dict_rl.json": "394cd37d88254e0f307efeedfce8738f4d19dc08e6a1c2facdf4b066d1c9b58a",
+    "pyca_verifier/data/dict_sc_sl.json": "4c9d4c292fccf314564a4f306484077b7185d7025703baad698c5205fc05eb2c",
+    "pyca_verifier/data/dict_sl.json": "90e444deadcb8628fb4c42b4ab06a55bff7e3d9e4b9d1d6c31af21182d3e92a0",
+    "pyca_verifier/data/dict_sl_rl.json": "459b0e02e8a8efc8242bc02583adc56eb623b6975f688d166af90b6e3ef4a0dc",
+    "pyca_verifier/data/dict_sl_sl.json": "9f3f6a0e4fea6636042c58aaf4bd4e4ccef0133844e2a3d425c956be864287a1",
+    "pyca_verifier/data/dict_yn.json": "285af731b8672a74e55810a64c6a8e0a06b0d133363f1a88ac43b69ca383a44a"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "guarded_word_density": {
+    "phase_pairs": 900,
+    "minimum_literal_core_start_gap": 21,
+    "witness": [
+      21,
+      6,
+      0
+    ],
+    "scope": "All distinct occurrences of guarded E words in any binary row."
+  },
+  "free_pair_spacing": {
+    "parameter_cases": 6300,
+    "native_orbits": 3600,
+    "classification": {
+      "incompatible_or_nonpositive": 2700,
+      "changed": 690,
+      "core_orbit_only": 900,
+      "core_orbit_and_guards": 2010
+    },
+    "stable_cases": 2910,
+    "minimum_delta_e": 357,
+    "minimum_normalized_gap": "357/15 = 119/5 = 23.8 cells",
+    "minimum_witness": {
+      "left_phase": 0,
+      "right_phase": 27,
+      "ether_tiles": 0,
+      "delta_e": 357,
+      "minimum_literal_gap": 21,
+      "all_phases_guarded": false,
+      "minimum_ether_gap": 0
+    },
+    "minimum_by_Cook_residues": {
+      "over1_up3": 525,
+      "over0_up0": 399,
+      "over3_up3": 441,
+      "over0_up1": 371,
+      "over3_up4": 413,
+      "over2_up1": 455,
+      "over1_up4": 497,
+      "over2_up2": 427,
+      "over1_up5": 469,
+      "over0_up2": 511,
+      "over3_up5": 385,
+      "over0_up3": 483,
+      "over3_up0": 357,
+      "over2_up3": 399,
+      "over2_up4": 539,
+      "over1_up1": 413,
+      "over0_up4": 455,
+      "over1_up2": 385,
+      "over0_up5": 427,
+      "over3_up2": 469,
+      "over2_up5": 511,
+      "over2_up0": 483,
+      "over1_up0": 441,
+      "over3_up1": 497
+    },
+    "negative_overlap_stable_cases": 0,
+    "overlapping_or_reversed_core_cut_candidates": 0,
+    "large_gap_base_cases": 900,
+    "large_gap_extension": "Every base join with three ether tiles has at least 14 ether cells in all 30 phases. Further ether tiles separate independent radius-one neighborhoods and increase delta_e by 210 per tile.",
+    "literal_edge_control": {
+      "left_phase": 0,
+      "right_phase": 20,
+      "ether_tiles": 0,
+      "delta_e": 385,
+      "minimum_literal_gap": 7,
+      "all_phases_guarded": false,
+      "minimum_ether_gap": 0
+    },
+    "scope": "All phase-compatible isolated pairs whose two prescribed E cores follow their free orbits and whose complete guarded pair translates by -8 after 30 ticks. Reactions need separate bounded collars."
+  },
+  "actual_adjacent_accepted_symbols": {
+    "native_component_trials": 360,
+    "adjacent_symbol_cases": 240,
+    "temporal_phases_per_case": 30,
+    "within_packet_minimum_literal_gap": 105,
+    "between_packet_minimum_literal_gap": 161,
+    "scope": "Successive accepted data letters through actual PC/SC tables, before subsequent scattering. Empty/leader seams are not included."
+  },
+  "normalization": "e=15*x+4*t+eta_E(p); free spatial reference b(t)=(e-4*t)/15",
+  "global_CA_decomposition_proved": false,
+  "conditional_density_statement": "If all pending passers outside a fixed boundary collar belong to the compatible free E stream, their normalized anchors are separated by at least 119/5, hence by 14. Thus their count in an interval of length G is at most floor(G/14)+1. Non-free passers must be bounded separately.",
+  "source_sha256": {
+    "supplementary/passing_particle_spacing.py": "f90d9ff1d1c0deb3419466a1a295f0a8c4fb1aef94640c49a6cbc485d3c5e107",
+    "supplementary/program_joins.py": "44fd1dced7afd31a83560c6baa69f8f81ab17998652f04df2fd58b04dbe39ff4",
+    "pyca_verifier/patterns.py": "5fc8b3271e70007f1dec8a615a16a75108850d55ebcade63dc9f83d8032f8185",
+    "pyca_verifier/automaton.py": "017120fe19a6a60cca7e3eba458855f3acd1ecd2880d3bfaf1ccc973010c58ce",
+    "pyca_verifier/data/gliders.json": "c1d5c22d602f4943b86055af6efae1d7eb73d2ab24a7dd159c085348b0565718",
+    "pyca_verifier/data/dict_rl.json": "394cd37d88254e0f307efeedfce8738f4d19dc08e6a1c2facdf4b066d1c9b58a",
+    "pyca_verifier/data/dict_sc_sl.json": "4c9d4c292fccf314564a4f306484077b7185d7025703baad698c5205fc05eb2c",
+    "pyca_verifier/data/dict_sl.json": "90e444deadcb8628fb4c42b4ab06a55bff7e3d9e4b9d1d6c31af21182d3e92a0",
+    "pyca_verifier/data/dict_sl_rl.json": "459b0e02e8a8efc8242bc02583adc56eb623b6975f688d166af90b6e3ef4a0dc",
+    "pyca_verifier/data/dict_sl_sl.json": "9f3f6a0e4fea6636042c58aaf4bd4e4ccef0133844e2a3d425c956be864287a1",
+    "pyca_verifier/data/dict_yn.json": "285af731b8672a74e55810a64c6a8e0a06b0d133363f1a88ac43b69ca383a44a"
+  },
+  "finite_checks_passed": true
+}

@@ -18,13 +18,13 @@ either the recognizer or the transducer.
 From the repository root, using Python 3.10 or newer:
 
 ```sh
-python soundness/decoder_database.py \
+python supplementary/decoder_database.py \
   --database /path/to/collisions.sqlite3
 ```
 
 Only the Python standard library and this checkout are required. SQLite is
 opened read-only. Detailed diagnostics, exact failing binary rows, and a
-machine-execution cache go to ignored `soundness/results/decoder-database/`.
+machine-execution cache go to ignored `supplementary/results/decoder-database/`.
 The script records hashes of the database, decoder modules, pattern catalogues
 and audit driver. A nonzero exit status denotes a semantic mismatch, an
 independent endpoint failure, or disagreement between the diagnostic and the

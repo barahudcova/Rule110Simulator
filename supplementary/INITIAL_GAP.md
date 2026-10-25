@@ -20,11 +20,11 @@ adjustment and depends only on the program and the fixed encoding geometry.
 The current implementation evaluates the equivalent spacing formula when
 initializing a seed; it does not load a stored table:
 
-- [`compact_initial_gap_certificate`](pyca_verifier/spacing_geometry.py#L202)
+- [`compact_initial_gap_certificate`](../pyca_verifier/spacing_geometry.py#L202)
   finds `r` and computes the initial gap using the phase tables and collision
   calibration. Its `selected_guard_tiles` field, denoted `d` below, counts
   14-cell ether words before the final shift to a ready configuration.
-- [`Encoder.initial`](pyca_verifier/encoder.py#L168) calls this calculation,
+- [`Encoder.initial`](../pyca_verifier/encoder.py#L168) calls this calculation,
   inserts the resulting ether, and applies that shift.
 
 To convert `d` to the paper's puzzle-piece exponent, use
@@ -40,7 +40,7 @@ of the transition piece. This is not the gap between repeated ossifier groups.
 
 ## Generate the table for a program
 
-Run the following Python code from this directory. For each entry it chooses
+Run the following Python code from the repository root. For each entry it chooses
 a reference tape with first productive read `r` and length in the required
 residue class. Subtracting `57*n` gives the table entry. No Rule 110 or cyclic
 tag evolution is performed.

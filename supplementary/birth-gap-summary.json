@@ -1,0 +1,6941 @@
+{
+  "status": "passed",
+  "scope": "finite arithmetic certificate conditional on the intended FIFO collision network",
+  "actual_CA_closure_proved": false,
+  "boundary_density_proved_here": false,
+  "raw_birth_gap_bound_requires_boundary_density": true,
+  "core_identity": "g(t)-7*B(t) = (84*L-delta_e+434+310*d+kappa_old-kappa_new)/21",
+  "program_count": 119,
+  "source_candidate_count": 72120,
+  "initial_table_entries": 1110,
+  "initial_length_extension_checks": 4440,
+  "initial_composition_checks": 2220,
+  "initial_catalogue_identities": [
+    {
+      "head": "Y",
+      "phase": 0,
+      "symbol": "Y",
+      "pitch": 684,
+      "first_anchor": -2
+    },
+    {
+      "head": "Y",
+      "phase": 0,
+      "symbol": "N",
+      "pitch": 684,
+      "first_anchor": -2
+    },
+    {
+      "head": "N",
+      "phase": 4,
+      "symbol": "Y",
+      "pitch": 684,
+      "first_anchor": 0
+    },
+    {
+      "head": "N",
+      "phase": 4,
+      "symbol": "N",
+      "pitch": 684,
+      "first_anchor": 0
+    }
+  ],
+  "programs": [
+    {
+      "appendants": [
+        "NNNNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1209,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4385,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1209,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4385,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNNN",
+        "NNNNNNNNNNNN",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 660,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 180,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3329,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 13217,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 1,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 3329,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 13217,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNNN",
+        "YYYYYY",
+        "",
+        "YNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 900,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 450
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3385,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 13129,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 3385,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 13129,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4353,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1201,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4353,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNNY",
+        "",
+        "",
+        "",
+        "",
+        "NNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2617,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 10017,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 5,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 2617,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 10017,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNNY",
+        "NNNNNYNNNNNY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 660,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 180,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3305,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 13121,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 1,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 3305,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 13121,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4353,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1201,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4353,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4353,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1201,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4353,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNYYN",
+        "",
+        "NNNYYN",
+        "NNNYYN",
+        "",
+        "NNNYYN",
+        "NNNYYN",
+        "NNYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 2880,
+        "categories": {
+          "within_appendant_short": 900,
+          "between_appendants": 1980
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 7659,
+        "lower_bound": {
+          "numerator": 601,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 30225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 7659,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 120,
+        "composition_checks": 60,
+        "table_entries": 30,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 30225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4353,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1201,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4353,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYNYY",
+        "",
+        "",
+        "NNNYNNNNYNNY",
+        "NYYNYY",
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 1620,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 840,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 6009,
+        "lower_bound": {
+          "numerator": 577,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 23937,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 3,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 6009,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 23937,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NNYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4353,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1201,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4353,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNNYN",
+        "NYNNYNYNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 660,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 180,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 12705,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 1,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 3201,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 12705,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNNYYYNYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 360,
+        "categories": {
+          "within_appendant_short": 300,
+          "within_appendant_long": 30,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2121,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8385,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 2121,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8385,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYNYYY",
+        "NYNNYY",
+        "YYYNNYNNNNYY",
+        "YNYYYY",
+        "YNNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 2280,
+        "categories": {
+          "within_appendant_short": 900,
+          "between_appendants": 1350,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 7223,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 28793,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 7223,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 100,
+        "composition_checks": 50,
+        "table_entries": 25,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 28793,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYNNY",
+        "NNNNYNYYYNNN",
+        "NYNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 1080,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 450,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4403,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 17513,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 1,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 4403,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 17513,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYNNY",
+        "NNYNNY",
+        "NYYYYY",
+        "NNYYYN",
+        "",
+        "",
+        "YYNYNN",
+        "NYYNYY"
+      ],
+      "recurring": {
+        "candidate_count": 2880,
+        "categories": {
+          "within_appendant_short": 900,
+          "between_appendants": 1980
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 7583,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 29921,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 7583,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 120,
+        "composition_checks": 60,
+        "table_entries": 30,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 29921,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYNY",
+        "",
+        "NYYYNY",
+        "NYYYNY",
+        "",
+        "NYYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 840
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4755,
+        "lower_bound": {
+          "numerator": 601,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 18609,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 4755,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 18609,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYNY",
+        "NNYYNY",
+        "",
+        "YYNYYN",
+        "NNYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 840
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4663,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 18241,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 4663,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 18241,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1169,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1169,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYYY",
+        "",
+        "NNYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2305,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8769,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 2305,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8769,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "NYYYYY",
+        "YNYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2217,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8457,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 2217,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8457,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1201,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4353,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1201,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4353,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNN",
+        "",
+        "YNNNNNYNNNNN"
+      ],
+      "recurring": {
+        "candidate_count": 660,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 180,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3305,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 13121,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 3305,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 13121,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNN",
+        "YNNNYN",
+        "YYNNNYNNYYYY",
+        "YNYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 1620,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 840,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 5815,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 23161,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 5815,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 23161,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNY",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1617,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 5177,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 6,
+          "source_intercept_difference": 29489,
+          "raw_ossifier_gap_tiles": 1617,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 5177,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNY",
+        "",
+        "YNNNNYYNNNNYYNNNNYYNNNNY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 1020,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 180,
+          "within_appendant_long": 90
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 5257,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 20929,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 5257,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 20929,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNY",
+        "YNYYYY",
+        "YYYYYY",
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 840
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4521,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 17673,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 4521,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 17673,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNYYNNNNY",
+        "YNNNNYYNNNNY",
+        "YNNNNYYNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 900,
+          "within_appendant_long": 90,
+          "between_appendants": 450
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 6153,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 24513,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 6153,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 24513,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNNYYNNNNYYNNNNYYNNNNY",
+        "YNYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 1020,
+        "categories": {
+          "within_appendant_short": 750,
+          "within_appendant_long": 90,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 5073,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 20193,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 5073,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 20193,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNYNY",
+        "",
+        "YYNYYYYYNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 660,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 180,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3225,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 12801,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 3225,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 12801,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYNNY",
+        "",
+        "YNYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2321,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8833,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 2321,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8833,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYNYN",
+        "NYNYNY",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2409,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 9225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 2409,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 9225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNY",
+        "",
+        "YNNNNY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2409,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8993,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 2,
+          "source_intercept_difference": 14641,
+          "raw_ossifier_gap_tiles": 2409,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8993,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNY",
+        "",
+        "YYYYYY",
+        "",
+        "YNNNNY",
+        "YNYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 840
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4749,
+        "lower_bound": {
+          "numerator": 593,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 18585,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 4,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 4749,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 18585,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNY",
+        "YNNNNYYNNNNY",
+        "YNYNNYYNYNNYYNYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 900,
+          "between_appendants": 450,
+          "within_appendant_long": 90
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 6295,
+        "lower_bound": {
+          "numerator": 593,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 25081,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 1,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 6295,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 25081,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNY",
+        "YNYYYN",
+        "YNYYNN",
+        "YYYNYY",
+        "YNNNYYYNYYNY",
+        "NNNYYY",
+        "NNYYYN",
+        "YNYNNN"
+      ],
+      "recurring": {
+        "candidate_count": 4980,
+        "categories": {
+          "within_appendant_short": 1350,
+          "between_appendants": 3600,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 11483,
+        "lower_bound": {
+          "numerator": 585,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 45833,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 4,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 11483,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 160,
+        "composition_checks": 80,
+        "table_entries": 40,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 45833,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYNYYYYNYYYYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 540,
+        "categories": {
+          "within_appendant_short": 450,
+          "within_appendant_long": 60,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3009,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 11937,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 3009,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 11937,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1169,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1169,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYYY",
+        "",
+        "",
+        "YYNYNN",
+        "YYNNYY",
+        "NNYYYY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 840
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4829,
+        "lower_bound": {
+          "numerator": 593,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 18905,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 3,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 4829,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 18905,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYYY",
+        "",
+        "",
+        "YYYYYYYYNYYYNYNNYY",
+        "YYYYNY",
+        "YYNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 1800,
+        "categories": {
+          "within_appendant_short": 900,
+          "between_appendants": 840,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 7209,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 28737,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 3,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 7209,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 28737,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YNYYYY",
+        "YYYYNY",
+        "YNYYYNYYYYYYNYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 1260,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 450,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 5593,
+        "lower_bound": {
+          "numerator": 593,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 22273,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 5593,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 22273,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4321,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4321,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNNNN",
+        "",
+        "YYNNNN",
+        "YYNNNN"
+      ],
+      "recurring": {
+        "candidate_count": 900,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 450
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3401,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 13193,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 3401,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 13193,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNNYY",
+        "",
+        "YYNNYY",
+        "YYNNYY",
+        "",
+        "YYNNYY",
+        "YYNNYY"
+      ],
+      "recurring": {
+        "candidate_count": 2100,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 1350
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 6167,
+        "lower_bound": {
+          "numerator": 585,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 24257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 6167,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 100,
+        "composition_checks": 50,
+        "table_entries": 25,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 24257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1169,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1169,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYNYYY",
+        "",
+        "YYYYYN",
+        "YNYNYNYNNYNN",
+        "NNYNNY",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 1620,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 840,
+          "within_appendant_long": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 6061,
+        "lower_bound": {
+          "numerator": 585,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 24145,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 3,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 6061,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 24145,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1185,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4289,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1185,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4289,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1169,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1169,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNYY",
+        "",
+        "",
+        "",
+        "NYYYYYYYYYYNYYYYYY",
+        "YYYYYY",
+        "YNYYYY",
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 2460,
+        "categories": {
+          "within_appendant_short": 1050,
+          "between_appendants": 1350,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 8661,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 34545,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 4,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 8661,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 100,
+        "composition_checks": 50,
+        "table_entries": 25,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 34545,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNYY",
+        "",
+        "",
+        "YYNYYYYYYYYYYYNYYY",
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 1260,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 450,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 5759,
+        "lower_bound": {
+          "numerator": 577,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 22937,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 3,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 5759,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 22937,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYNYY",
+        "YYNYYY"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2209,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8425,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 2209,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8425,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYNN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1177,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4257,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1177,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4257,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1169,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1169,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1169,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4225,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1169,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4225,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYN",
+        "",
+        "",
+        "",
+        "NYNYYYYYYYYYYYYNNY",
+        "YYYYYY",
+        "NNYYYN"
+      ],
+      "recurring": {
+        "candidate_count": 1800,
+        "categories": {
+          "within_appendant_short": 900,
+          "between_appendants": 840,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 7283,
+        "lower_bound": {
+          "numerator": 601,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 29033,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 4,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 7283,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 29033,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1161,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4193,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 1161,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4193,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1329,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4481,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 3,
+          "source_intercept_difference": 18983,
+          "raw_ossifier_gap_tiles": 1329,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4481,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1417,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 4681,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 4,
+          "source_intercept_difference": 22485,
+          "raw_ossifier_gap_tiles": 1417,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 4681,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1585,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 5049,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 6,
+          "source_intercept_difference": 29489,
+          "raw_ossifier_gap_tiles": 1585,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 5049,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 180,
+        "categories": {
+          "within_appendant_short": 150,
+          "between_appendants": 30
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 1761,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 5449,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 8,
+          "source_intercept_difference": 36493,
+          "raw_ossifier_gap_tiles": 1761,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 20,
+        "composition_checks": 10,
+        "table_entries": 5,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 5449,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "YNNNNY"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2737,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 10497,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 7,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 10299,
+          "raw_ossifier_gap_tiles": 2737,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 10497,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "",
+        "",
+        "NYNYYY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2553,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 9529,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 4,
+          "earlier_symbol": 5,
+          "intervening_reads": 2,
+          "source_intercept_difference": 15481,
+          "raw_ossifier_gap_tiles": 2553,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 9529,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "",
+        "YNNNNY",
+        "",
+        "",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2649,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 9801,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 3,
+          "source_intercept_difference": 18143,
+          "raw_ossifier_gap_tiles": 2649,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 9801,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "YYYYNYYYYYYYYYYYYY",
+        "YYYNNY"
+      ],
+      "recurring": {
+        "candidate_count": 1260,
+        "categories": {
+          "within_appendant_short": 750,
+          "between_appendants": 450,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 5685,
+        "lower_bound": {
+          "numerator": 601,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 22641,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 5685,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 22641,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "",
+        "YYYYYY",
+        "YYYYYY",
+        "YNYYNY"
+      ],
+      "recurring": {
+        "candidate_count": 1440,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 840
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4605,
+        "lower_bound": {
+          "numerator": 593,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 18009,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 2,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 4605,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 80,
+        "composition_checks": 40,
+        "table_entries": 20,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 18009,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "NNNNNN",
+        "YNNNNY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 900,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 450
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3385,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 13129,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 3385,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 13129,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "YNNNNY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2305,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8809,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 2305,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8809,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 480,
+        "categories": {
+          "within_appendant_short": 300,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 2193,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 8361,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 2193,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 8361,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "YYYYYY",
+        "YYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 900,
+        "categories": {
+          "within_appendant_short": 450,
+          "between_appendants": 450
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 3225,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 12489,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 1,
+          "source_intercept_difference": 9459,
+          "raw_ossifier_gap_tiles": 3225,
+          "category": "between_appendants"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 60,
+        "composition_checks": 30,
+        "table_entries": 15,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 12489,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYY",
+        "YYYYYYYYYNYYYYYYYY"
+      ],
+      "recurring": {
+        "candidate_count": 840,
+        "categories": {
+          "within_appendant_short": 600,
+          "between_appendants": 180,
+          "within_appendant_long": 60
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4025,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 16001,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 1,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 4025,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 16001,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    },
+    {
+      "appendants": [
+        "YYYYYYYYYYYYYYYYYY",
+        "",
+        "",
+        "YYYYYY",
+        ""
+      ],
+      "recurring": {
+        "candidate_count": 840,
+        "categories": {
+          "within_appendant_short": 600,
+          "within_appendant_long": 60,
+          "between_appendants": 180
+        },
+        "short_gap_tiles": 179,
+        "long_gap_tiles": 4273,
+        "lower_bound": {
+          "numerator": 609,
+          "denominator": 1
+        },
+        "reduced_gap_upper_bound": {
+          "numerator": 16993,
+          "denominator": 1
+        },
+        "maximizing_candidate": {
+          "raw_phase": 0,
+          "appendant": 0,
+          "earlier_symbol": 5,
+          "intervening_reads": 0,
+          "source_intercept_difference": 2597,
+          "raw_ossifier_gap_tiles": 4273,
+          "category": "within_appendant_long"
+        }
+      },
+      "first_deposit": {
+        "reduced_gap_upper_bound": {
+          "numerator": 613,
+          "denominator": 1
+        },
+        "extension_checks": 40,
+        "composition_checks": 20,
+        "table_entries": 10,
+        "maximizing_table_entry": {
+          "first_productive_read": 0,
+          "length_mod_5": 4,
+          "smallest_length": 4,
+          "selected_guard_tiles": 611,
+          "reduced_gap_upper_bound": {
+            "numerator": 613,
+            "denominator": 1
+          }
+        }
+      },
+      "K0_cells": {
+        "numerator": 16993,
+        "denominator": 1
+      },
+      "conditional_bound_14": "g <= 2*K0 + 14*C_boundary",
+      "conditional_bound_21": "g <= (3/2)*K0 + (21/2)*C_boundary"
+    }
+  ],
+  "source_sha256": {
+    "supplementary/birth_gap_bounds.py": "c658899098aa767dfb869df02d335ce150efc84968cdeb04d2dffc3c47ec3e21",
+    "pyca_verifier/encoder.py": "718dcc3cfbc987d67ba2c0925d8ca1afcffdd6084a5255a7094865ac68086a63",
+    "pyca_verifier/spacing_geometry.py": "3b1b461512540ac9bbb0440110047d5c13b72edd89f14aa8e131b3fd313dd825",
+    "pyca_verifier/data/encoder_geometry.json": "c18f3c974fa8cb753f563d1ae7dc1ac647fd7ea5ada9d6bcdcce93a63a413693",
+    "pyca_verifier/data/gliders.json": "c1d5c22d602f4943b86055af6efae1d7eb73d2ab24a7dd159c085348b0565718",
+    "pyca_verifier/data/dict_rl.json": "394cd37d88254e0f307efeedfce8738f4d19dc08e6a1c2facdf4b066d1c9b58a",
+    "pyca_verifier/data/dict_sc_sl.json": "4c9d4c292fccf314564a4f306484077b7185d7025703baad698c5205fc05eb2c",
+    "pyca_verifier/data/dict_sl.json": "90e444deadcb8628fb4c42b4ab06a55bff7e3d9e4b9d1d6c31af21182d3e92a0",
+    "pyca_verifier/data/dict_sl_rl.json": "459b0e02e8a8efc8242bc02583adc56eb623b6975f688d166af90b6e3ef4a0dc",
+    "pyca_verifier/data/dict_sl_sl.json": "9f3f6a0e4fea6636042c58aaf4bd4e4ccef0133844e2a3d425c956be864287a1",
+    "pyca_verifier/data/dict_yn.json": "285af731b8672a74e55810a64c6a8e0a06b0d133363f1a88ac43b69ca383a44a"
+  }
+}

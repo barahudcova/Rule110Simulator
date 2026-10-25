@@ -65,14 +65,14 @@ The small isolated collision needs only this checkout and Python's standard
 library:
 
 ```sh
-python soundness/decoder_excluded.py
+python supplementary/decoder_excluded.py
 ```
 
 To additionally verify provenance against the preserved pilot checkpoints:
 
 ```sh
-python soundness/decoder_excluded.py \
-  --archive soundness/results/decoder-seeded/outside-domain-pilot/ready-rows.jsonl.gz
+python supplementary/decoder_excluded.py \
+  --archive supplementary/results/decoder-seeded/outside-domain-pilot/ready-rows.jsonl.gz
 ```
 
 The [collision receipt](decoder-excluded-collision.json) records the seed,

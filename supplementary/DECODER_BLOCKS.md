@@ -58,13 +58,13 @@ From the repository root, using Python 3.10 or later and only the standard
 library:
 
 ```sh
-python soundness/decoder_blocks.py
+python supplementary/decoder_blocks.py
 ```
 
 The [recorded summary](decoder-blocks-summary.json) gives the actual outcomes,
 the invariant certificate for each input, and runtime/driver hashes. Exact
 binary rows and detailed reports are generated in ignored
-`soundness/results/decoder-blocks/`. They can be replayed with
+`supplementary/results/decoder-blocks/`. They can be replayed with
 `decoder_replay.py`. Completed cases with identical input, runtime and helper
 driver are
 reused; `--no-resume` requests a fresh run, and `--record` updates the compact

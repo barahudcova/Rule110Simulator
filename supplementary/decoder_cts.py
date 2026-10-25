@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Structured end-to-end tests of the shipped Rule 110 decoder.
 
-Run from any directory: python soundness/decoder_cts.py [--record].
+Run from any directory: python supplementary/decoder_cts.py [--record].
 Every observed ready row is saved, including successes, for direct replay.
 The independent reference below is deliberately not pyca_verifier.cts.
 It supplies no data to the decoder, ready matcher, or CA transition.
@@ -286,7 +286,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--cases', nargs='+', choices=[c.name for c in CASES],
                         help='Omit to run all structured cases.')
-    parser.add_argument('--output', type=Path, default=ROOT / 'soundness/results/decoder-cts')
+    parser.add_argument('--output', type=Path, default=ROOT / 'supplementary/results/decoder-cts')
     parser.add_argument('--record', action='store_true', help='Update the versioned compact summary.')
     parser.add_argument('--no-resume', action='store_true', help='Recompute even unchanged completed cases.')
     parser.add_argument('--list', action='store_true')
@@ -325,7 +325,7 @@ def main():
         'scope': 'Finite trials on the exact requested prefixes; no proof of decoder completeness.'}
     dump(args.output / 'summary.json', summary)
     if args.record:
-        dump(ROOT / 'soundness/decoder-cts-summary.json', summary)
+        dump(ROOT / 'supplementary/decoder-cts-summary.json', summary)
     print(json.dumps({k: v for k, v in summary.items() if k not in ('runtime_sha256', 'results')}, indent=2))
     return int(not unchanged or any(r['status'] != 'passed' for r in results))
 

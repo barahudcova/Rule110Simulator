@@ -164,7 +164,7 @@ is not copied into this minimal simulator/verifier repository. To search a
 copy, run from the repository root:
 
 ```sh
-python soundness/ready_database.py --database /path/to/collisions.sqlite3
+python supplementary/ready_database.py --database /path/to/collisions.sqlite3
 ```
 
 The reference database is identified by SHA-256:
@@ -189,6 +189,6 @@ are recorded in [database-inventory.json](database-inventory.json).
   propagation of spacing constraints around ether regions and intended local
   reactions. Page references are printed page numbers.
 
-The [encoder verification report](README.md) checks the shipped encoder's
+The [encoder verification report](ENCODER.md) checks the shipped encoder's
 finite source-alignment conditions. That result and the experimental database's
 coverage are separate claims.

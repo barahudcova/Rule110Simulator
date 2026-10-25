@@ -157,7 +157,7 @@ It does not enumerate every legal combination of neighboring collisions,
 every program/tape interface, or the finite-observation boundary construction.
 The result therefore does not establish exclusion in contexts absent from
 the database, nor positive coverage of its unobserved ready phases. The
-[encoder report](README.md) and these checks supply complementary finite
+[encoder report](ENCODER.md) and these checks supply complementary finite
 evidence for an eventual invariant-based readiness proof.
 
 ## Reproduce and inspect
@@ -165,11 +165,11 @@ evidence for an eventual invariant-based readiness proof.
 From the repository root, with Python 3.10 or later and no extra packages:
 
 ```sh
-python soundness/ready_database.py --database /path/to/collisions.sqlite3
+python supplementary/ready_database.py --database /path/to/collisions.sqlite3
 ```
 
 The database stays external and read-only. Generated reports go to
-`soundness/results/ready-database/`, ignored by Git:
+`supplementary/results/ready-database/`, ignored by Git:
 
 - `ready-database-summary.json`: counts, signatures, source/database hashes,
   free-orbit checks, source-family totals, and failures.
@@ -180,5 +180,5 @@ Use `--output PATH` to change the destination. After reviewing a new run,
 `--record` updates the compact versioned
 [ready-database-summary.json](ready-database-summary.json). A failed check
 returns a nonzero exit status. This optional scan is separate from
-`python soundness/run.py`, which needs no external database and checks the
+`python supplementary/run.py`, which needs no external database and checks the
 encoder only. Neither command changes the runtime ready language or decoder.

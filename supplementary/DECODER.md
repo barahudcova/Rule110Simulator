@@ -97,28 +97,28 @@ seeds without asserting that their future computations are admissible.
 From the repository root, with Python 3.10 or newer:
 
 ```sh
-python soundness/decoder_database.py --database /path/to/collisions.sqlite3
-python soundness/decoder_cts.py
-python soundness/decoder_seeded.py --workers 2
-python soundness/decoder_blocks.py
+python supplementary/decoder_database.py --database /path/to/collisions.sqlite3
+python supplementary/decoder_cts.py
+python supplementary/decoder_seeded.py --workers 2
+python supplementary/decoder_blocks.py
 ```
 
 These commands require only the standard library and this checkout. The
 database remains external and is opened read-only. Outputs and exact binary
-rows go to ignored `soundness/results/`. The full native campaigns can take
+rows go to ignored `supplementary/results/`. The full native campaigns can take
 hours on a laptop: high-growth cases reserve millions of cells. The individual
 reports explain case selection, resuming completed work, and replay. A smaller
 targeted campaign check is:
 
 ```sh
-python soundness/decoder_cts.py --cases two-empty identical-two
+python supplementary/decoder_cts.py --cases two-empty identical-two
 ```
 
 A quick check of the ordinary checkout entry point is:
 
 ```sh
 python verify.py --tape YYY --appendants YYYYYY empty empty --multisteps 3 \
-  --output soundness/results/decoder-cli-smoke
+  --output supplementary/results/decoder-cli-smoke
 ```
 
 This also passed: four ready rows through tick 24,216, with tape lengths
@@ -128,8 +128,8 @@ is not added to the campaign totals.
 Replay a particular ready row from either campaign without rerunning the CA:
 
 ```sh
-python soundness/decoder_replay.py \
-  soundness/results/decoder-cts/two-empty/ready-rows.jsonl.gz --ready-index 10
+python supplementary/decoder_replay.py \
+  supplementary/results/decoder-cts/two-empty/ready-rows.jsonl.gz --ready-index 10
 ```
 
 The replay tool verifies the saved binary hash and compares the complete
@@ -145,7 +145,7 @@ After generating all three native campaign archives, check their integrity
 and independently recompute every expected state:
 
 ```sh
-python soundness/decoder_receipts.py
+python supplementary/decoder_receipts.py
 ```
 
 This [archive checker](decoder_receipts.py) verifies every saved binary hash,
@@ -155,7 +155,7 @@ It also checks that the aggregate counts equal the individual archives. It
 does not reexecute the CA or decoder. The completed
 [integrity receipt](decoder-archive-integrity.json) records all 59 archive
 hashes and the three campaign-summary hashes. Large binary archives remain
-in ignored `soundness/results/`; the small reports and receipts are shipped.
+in ignored `supplementary/results/`; the small reports and receipts are shipped.
 
 ## Outside-domain diagnostic
 
@@ -170,7 +170,7 @@ counts. With one appendant, an initial N makes the first aligned rotation
 unproductive, so this input violates the encoder's hypothesis immediately.
 It is not a counterexample on an admissible computation. Its exact ready
 rows, failure row and comparison are retained under
-`soundness/results/decoder-seeded/outside-domain-pilot/` for investigation;
+`supplementary/results/decoder-seeded/outside-domain-pilot/` for investigation;
 the seeded report gives the command to reproduce it. No runtime change was
 made to conceal or accommodate the discrepancy.
 

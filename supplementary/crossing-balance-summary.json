@@ -1,0 +1,3222 @@
+{
+  "passed": true,
+  "scope": "Exact isolated reactions and conditional particle accounting; not a global embedding theorem",
+  "sources": {
+    "supplementary/crossing_balance.py": "68a09cdfea17236d6a03bd3340c70860d4b2bf93d047d4d0745a65ae84df47f8",
+    "supplementary/static_ossifier_joins.py": "57bcfaeafcfcd8bee5bb4e66ba1902e605d360c040ce2cf996cdf7da031c6fd8",
+    "supplementary/distance_conventions.py": "4643cb78726c48f159c3a910bed1cdee4363351dde25cc85dcce6104931612da",
+    "pyca_verifier/automaton.py": "017120fe19a6a60cca7e3eba458855f3acd1ecd2880d3bfaf1ccc973010c58ce",
+    "pyca_verifier/patterns.py": "5fc8b3271e70007f1dec8a615a16a75108850d55ebcade63dc9f83d8032f8185",
+    "pyca_verifier/data/gliders.json": "c1d5c22d602f4943b86055af6efae1d7eb73d2ab24a7dd159c085348b0565718"
+  },
+  "reaction_count": 210,
+  "maximum_active_ticks": 171,
+  "union_active_defect_support": [
+    -41,
+    52
+  ],
+  "uniform_simultaneous_boundary_count_in_intended_network": true,
+  "ledger": {
+    "checked_state_pairs": 55987,
+    "maximum_particles": 6,
+    "all_time_proof": "Per-particle indicator identity; see CROSSING_BALANCE.md",
+    "gap_identity": "g(t)-g(birth)=7*(B(t)-B(birth))",
+    "ledger_roles": "E-bar identities survive both endpoint crossings; boundaries survive"
+  },
+  "boundary_allowance": {
+    "scope": "Uniform boundary count in the intended FIFO scattering network, using independently checked emission and free-particle bounds",
+    "global_CA_embedding_proved": false,
+    "companion_receipts": {
+      "passing-particle-spacing.json": "acff0f18665162abdf4dca59c5a849e4915b24c2fe02a51f89c211b228b0feb4",
+      "passing-source-seams.json": "be3ef32cf6232579a5a88e9e2f0abfe150169ef075ac8e2a3e65f4257f1aea44"
+    },
+    "current_anchor_defect_collar": [
+      -48,
+      52
+    ],
+    "maximum_E_core_width": 35,
+    "E_normalized_position_minus_core_start": [
+      "-28/5",
+      "196/15"
+    ],
+    "derived_free_position_collar": [
+      "-438/5",
+      "961/15"
+    ],
+    "chosen_symmetric_collar": 100,
+    "assumed_minimum_free_spacing": 14,
+    "conditional_arrival_argument": {
+      "ideal_time": "(e-15*c)/4",
+      "active_window_offsets": [
+        "-421/4",
+        "263/4"
+      ],
+      "minimum_source_e_difference": 1325,
+      "minimum_incoming_e_difference": 1325,
+      "incoming_formula": "delta_e_incoming=delta_e_source+684*d, d>=0",
+      "incoming_bound_verified_in_intended_network": true,
+      "minimum_ideal_time_gap": "305",
+      "active_per_endpoint": 1,
+      "additive_count_bound": "121/7",
+      "conditional_result": "B(t) <= g(t)/14 + 20"
+    },
+    "assumptions": [
+      "Surviving facing C2 endpoints, with no other C2 in their gap",
+      "FIFO E-bar passing and no interior reaction or disappearance",
+      "Finite atomic windows compose in the ordered incoming stream",
+      "Free E-bar normalized anchors at least fourteen cells apart"
+    ]
+  },
+  "reactions": [
+    {
+      "C2_phase": 0,
+      "E_phase": 0,
+      "gap_tiles": 3,
+      "active_start": 116,
+      "active_end_exclusive": 287,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 1,
+      "gap_tiles": 1,
+      "active_start": 25,
+      "active_end_exclusive": 196,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 2,
+      "gap_tiles": 3,
+      "active_start": 144,
+      "active_end_exclusive": 315,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 3,
+      "gap_tiles": 2,
+      "active_start": 53,
+      "active_end_exclusive": 224,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 4,
+      "gap_tiles": 4,
+      "active_start": 172,
+      "active_end_exclusive": 343,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 5,
+      "gap_tiles": 2,
+      "active_start": 81,
+      "active_end_exclusive": 252,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 6,
+      "gap_tiles": 1,
+      "active_start": 7,
+      "active_end_exclusive": 161,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 7,
+      "gap_tiles": 3,
+      "active_start": 109,
+      "active_end_exclusive": 280,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 8,
+      "gap_tiles": 1,
+      "active_start": 18,
+      "active_end_exclusive": 189,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 9,
+      "gap_tiles": 3,
+      "active_start": 137,
+      "active_end_exclusive": 308,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 10,
+      "gap_tiles": 2,
+      "active_start": 46,
+      "active_end_exclusive": 217,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 11,
+      "gap_tiles": 4,
+      "active_start": 165,
+      "active_end_exclusive": 336,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 12,
+      "gap_tiles": 2,
+      "active_start": 74,
+      "active_end_exclusive": 245,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 13,
+      "gap_tiles": 4,
+      "active_start": 193,
+      "active_end_exclusive": 364,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 14,
+      "gap_tiles": 2,
+      "active_start": 102,
+      "active_end_exclusive": 273,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 15,
+      "gap_tiles": 1,
+      "active_start": 11,
+      "active_end_exclusive": 182,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 16,
+      "gap_tiles": 3,
+      "active_start": 130,
+      "active_end_exclusive": 301,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 17,
+      "gap_tiles": 1,
+      "active_start": 39,
+      "active_end_exclusive": 210,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 18,
+      "gap_tiles": 4,
+      "active_start": 158,
+      "active_end_exclusive": 329,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 19,
+      "gap_tiles": 2,
+      "active_start": 67,
+      "active_end_exclusive": 238,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 20,
+      "gap_tiles": 4,
+      "active_start": 186,
+      "active_end_exclusive": 357,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 21,
+      "gap_tiles": 2,
+      "active_start": 95,
+      "active_end_exclusive": 266,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 22,
+      "gap_tiles": 1,
+      "active_start": 4,
+      "active_end_exclusive": 175,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 23,
+      "gap_tiles": 3,
+      "active_start": 123,
+      "active_end_exclusive": 294,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 24,
+      "gap_tiles": 1,
+      "active_start": 32,
+      "active_end_exclusive": 203,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 25,
+      "gap_tiles": 3,
+      "active_start": 151,
+      "active_end_exclusive": 322,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 26,
+      "gap_tiles": 1,
+      "active_start": 60,
+      "active_end_exclusive": 231,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 27,
+      "gap_tiles": 4,
+      "active_start": 179,
+      "active_end_exclusive": 350,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 28,
+      "gap_tiles": 2,
+      "active_start": 88,
+      "active_end_exclusive": 259,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 0,
+      "E_phase": 29,
+      "gap_tiles": 4,
+      "active_start": 207,
+      "active_end_exclusive": 378,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 0,
+      "gap_tiles": 1,
+      "active_start": 13,
+      "active_end_exclusive": 167,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 1,
+      "gap_tiles": 3,
+      "active_start": 115,
+      "active_end_exclusive": 286,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 2,
+      "gap_tiles": 1,
+      "active_start": 24,
+      "active_end_exclusive": 195,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 3,
+      "gap_tiles": 4,
+      "active_start": 143,
+      "active_end_exclusive": 314,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 4,
+      "gap_tiles": 2,
+      "active_start": 52,
+      "active_end_exclusive": 223,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 5,
+      "gap_tiles": 4,
+      "active_start": 171,
+      "active_end_exclusive": 342,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 6,
+      "gap_tiles": 3,
+      "active_start": 80,
+      "active_end_exclusive": 251,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 7,
+      "gap_tiles": 1,
+      "active_start": 6,
+      "active_end_exclusive": 160,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 8,
+      "gap_tiles": 3,
+      "active_start": 108,
+      "active_end_exclusive": 279,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 9,
+      "gap_tiles": 1,
+      "active_start": 17,
+      "active_end_exclusive": 188,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 10,
+      "gap_tiles": 4,
+      "active_start": 136,
+      "active_end_exclusive": 307,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 11,
+      "gap_tiles": 2,
+      "active_start": 45,
+      "active_end_exclusive": 216,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 12,
+      "gap_tiles": 4,
+      "active_start": 164,
+      "active_end_exclusive": 335,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 13,
+      "gap_tiles": 2,
+      "active_start": 73,
+      "active_end_exclusive": 244,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 14,
+      "gap_tiles": 4,
+      "active_start": 192,
+      "active_end_exclusive": 363,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 15,
+      "gap_tiles": 3,
+      "active_start": 101,
+      "active_end_exclusive": 272,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 16,
+      "gap_tiles": 1,
+      "active_start": 10,
+      "active_end_exclusive": 181,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 17,
+      "gap_tiles": 3,
+      "active_start": 129,
+      "active_end_exclusive": 300,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 18,
+      "gap_tiles": 2,
+      "active_start": 38,
+      "active_end_exclusive": 209,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 19,
+      "gap_tiles": 4,
+      "active_start": 157,
+      "active_end_exclusive": 328,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 20,
+      "gap_tiles": 2,
+      "active_start": 66,
+      "active_end_exclusive": 237,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 21,
+      "gap_tiles": 4,
+      "active_start": 185,
+      "active_end_exclusive": 356,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 22,
+      "gap_tiles": 3,
+      "active_start": 94,
+      "active_end_exclusive": 265,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 23,
+      "gap_tiles": 1,
+      "active_start": 3,
+      "active_end_exclusive": 174,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 24,
+      "gap_tiles": 3,
+      "active_start": 122,
+      "active_end_exclusive": 293,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 25,
+      "gap_tiles": 1,
+      "active_start": 31,
+      "active_end_exclusive": 202,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 26,
+      "gap_tiles": 3,
+      "active_start": 150,
+      "active_end_exclusive": 321,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 27,
+      "gap_tiles": 2,
+      "active_start": 59,
+      "active_end_exclusive": 230,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 28,
+      "gap_tiles": 4,
+      "active_start": 178,
+      "active_end_exclusive": 349,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 1,
+      "E_phase": 29,
+      "gap_tiles": 2,
+      "active_start": 87,
+      "active_end_exclusive": 258,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 0,
+      "gap_tiles": 3,
+      "active_start": 86,
+      "active_end_exclusive": 257,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 1,
+      "gap_tiles": 1,
+      "active_start": 12,
+      "active_end_exclusive": 166,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 2,
+      "gap_tiles": 3,
+      "active_start": 114,
+      "active_end_exclusive": 285,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 3,
+      "gap_tiles": 2,
+      "active_start": 23,
+      "active_end_exclusive": 194,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 4,
+      "gap_tiles": 4,
+      "active_start": 142,
+      "active_end_exclusive": 313,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 5,
+      "gap_tiles": 2,
+      "active_start": 51,
+      "active_end_exclusive": 222,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 6,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 131,
+      "active_ticks": 129,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 7,
+      "gap_tiles": 3,
+      "active_start": 79,
+      "active_end_exclusive": 250,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 8,
+      "gap_tiles": 1,
+      "active_start": 5,
+      "active_end_exclusive": 159,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 9,
+      "gap_tiles": 3,
+      "active_start": 107,
+      "active_end_exclusive": 278,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 10,
+      "gap_tiles": 2,
+      "active_start": 16,
+      "active_end_exclusive": 187,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 11,
+      "gap_tiles": 4,
+      "active_start": 135,
+      "active_end_exclusive": 306,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 12,
+      "gap_tiles": 2,
+      "active_start": 44,
+      "active_end_exclusive": 215,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 13,
+      "gap_tiles": 4,
+      "active_start": 163,
+      "active_end_exclusive": 334,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 14,
+      "gap_tiles": 2,
+      "active_start": 72,
+      "active_end_exclusive": 243,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 15,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 152,
+      "active_ticks": 150,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        48
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 16,
+      "gap_tiles": 3,
+      "active_start": 100,
+      "active_end_exclusive": 271,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 17,
+      "gap_tiles": 1,
+      "active_start": 9,
+      "active_end_exclusive": 180,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 18,
+      "gap_tiles": 4,
+      "active_start": 128,
+      "active_end_exclusive": 299,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 19,
+      "gap_tiles": 2,
+      "active_start": 37,
+      "active_end_exclusive": 208,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 20,
+      "gap_tiles": 4,
+      "active_start": 156,
+      "active_end_exclusive": 327,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 21,
+      "gap_tiles": 2,
+      "active_start": 65,
+      "active_end_exclusive": 236,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 22,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 145,
+      "active_ticks": 143,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 23,
+      "gap_tiles": 3,
+      "active_start": 93,
+      "active_end_exclusive": 264,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 24,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 173,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 25,
+      "gap_tiles": 3,
+      "active_start": 121,
+      "active_end_exclusive": 292,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 26,
+      "gap_tiles": 1,
+      "active_start": 30,
+      "active_end_exclusive": 201,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 27,
+      "gap_tiles": 4,
+      "active_start": 149,
+      "active_end_exclusive": 320,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 28,
+      "gap_tiles": 2,
+      "active_start": 58,
+      "active_end_exclusive": 229,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 2,
+      "E_phase": 29,
+      "gap_tiles": 4,
+      "active_start": 177,
+      "active_end_exclusive": 348,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 0,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 137,
+      "active_ticks": 136,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 1,
+      "gap_tiles": 3,
+      "active_start": 85,
+      "active_end_exclusive": 256,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 2,
+      "gap_tiles": 1,
+      "active_start": 11,
+      "active_end_exclusive": 165,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 3,
+      "gap_tiles": 4,
+      "active_start": 113,
+      "active_end_exclusive": 284,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 4,
+      "gap_tiles": 2,
+      "active_start": 22,
+      "active_end_exclusive": 193,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 5,
+      "gap_tiles": 4,
+      "active_start": 141,
+      "active_end_exclusive": 312,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 6,
+      "gap_tiles": 3,
+      "active_start": 50,
+      "active_end_exclusive": 221,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 7,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 130,
+      "active_ticks": 129,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 8,
+      "gap_tiles": 3,
+      "active_start": 78,
+      "active_end_exclusive": 249,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 9,
+      "gap_tiles": 1,
+      "active_start": 4,
+      "active_end_exclusive": 158,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 10,
+      "gap_tiles": 4,
+      "active_start": 106,
+      "active_end_exclusive": 277,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 11,
+      "gap_tiles": 2,
+      "active_start": 15,
+      "active_end_exclusive": 186,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 12,
+      "gap_tiles": 4,
+      "active_start": 134,
+      "active_end_exclusive": 305,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 13,
+      "gap_tiles": 2,
+      "active_start": 43,
+      "active_end_exclusive": 214,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 14,
+      "gap_tiles": 4,
+      "active_start": 162,
+      "active_end_exclusive": 333,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 15,
+      "gap_tiles": 3,
+      "active_start": 71,
+      "active_end_exclusive": 242,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 16,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 151,
+      "active_ticks": 150,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        48
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 17,
+      "gap_tiles": 3,
+      "active_start": 99,
+      "active_end_exclusive": 270,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 18,
+      "gap_tiles": 2,
+      "active_start": 8,
+      "active_end_exclusive": 179,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 19,
+      "gap_tiles": 4,
+      "active_start": 127,
+      "active_end_exclusive": 298,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 20,
+      "gap_tiles": 2,
+      "active_start": 36,
+      "active_end_exclusive": 207,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 21,
+      "gap_tiles": 4,
+      "active_start": 155,
+      "active_end_exclusive": 326,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 22,
+      "gap_tiles": 3,
+      "active_start": 64,
+      "active_end_exclusive": 235,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 23,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 144,
+      "active_ticks": 143,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 24,
+      "gap_tiles": 3,
+      "active_start": 92,
+      "active_end_exclusive": 263,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 25,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 172,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 26,
+      "gap_tiles": 3,
+      "active_start": 120,
+      "active_end_exclusive": 291,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 27,
+      "gap_tiles": 2,
+      "active_start": 29,
+      "active_end_exclusive": 200,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 28,
+      "gap_tiles": 4,
+      "active_start": 148,
+      "active_end_exclusive": 319,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 3,
+      "E_phase": 29,
+      "gap_tiles": 2,
+      "active_start": 57,
+      "active_end_exclusive": 228,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 0,
+      "gap_tiles": 2,
+      "active_start": 56,
+      "active_end_exclusive": 227,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 1,
+      "gap_tiles": 4,
+      "active_start": 175,
+      "active_end_exclusive": 346,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 2,
+      "gap_tiles": 2,
+      "active_start": 84,
+      "active_end_exclusive": 255,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 3,
+      "gap_tiles": 1,
+      "active_start": 10,
+      "active_end_exclusive": 164,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 4,
+      "gap_tiles": 3,
+      "active_start": 112,
+      "active_end_exclusive": 283,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 5,
+      "gap_tiles": 1,
+      "active_start": 21,
+      "active_end_exclusive": 192,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 6,
+      "gap_tiles": 4,
+      "active_start": 140,
+      "active_end_exclusive": 311,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 7,
+      "gap_tiles": 2,
+      "active_start": 49,
+      "active_end_exclusive": 220,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 8,
+      "gap_tiles": 4,
+      "active_start": 168,
+      "active_end_exclusive": 339,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 9,
+      "gap_tiles": 2,
+      "active_start": 77,
+      "active_end_exclusive": 248,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 10,
+      "gap_tiles": 1,
+      "active_start": 3,
+      "active_end_exclusive": 157,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 11,
+      "gap_tiles": 3,
+      "active_start": 105,
+      "active_end_exclusive": 276,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 12,
+      "gap_tiles": 1,
+      "active_start": 14,
+      "active_end_exclusive": 185,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 13,
+      "gap_tiles": 3,
+      "active_start": 133,
+      "active_end_exclusive": 304,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 14,
+      "gap_tiles": 1,
+      "active_start": 42,
+      "active_end_exclusive": 213,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 15,
+      "gap_tiles": 4,
+      "active_start": 161,
+      "active_end_exclusive": 332,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 16,
+      "gap_tiles": 2,
+      "active_start": 70,
+      "active_end_exclusive": 241,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 17,
+      "gap_tiles": 4,
+      "active_start": 189,
+      "active_end_exclusive": 360,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 18,
+      "gap_tiles": 3,
+      "active_start": 98,
+      "active_end_exclusive": 269,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 19,
+      "gap_tiles": 1,
+      "active_start": 7,
+      "active_end_exclusive": 178,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 20,
+      "gap_tiles": 3,
+      "active_start": 126,
+      "active_end_exclusive": 297,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 21,
+      "gap_tiles": 1,
+      "active_start": 35,
+      "active_end_exclusive": 206,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 22,
+      "gap_tiles": 4,
+      "active_start": 154,
+      "active_end_exclusive": 325,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 23,
+      "gap_tiles": 2,
+      "active_start": 63,
+      "active_end_exclusive": 234,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 24,
+      "gap_tiles": 4,
+      "active_start": 182,
+      "active_end_exclusive": 353,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 25,
+      "gap_tiles": 2,
+      "active_start": 91,
+      "active_end_exclusive": 262,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 26,
+      "gap_tiles": 4,
+      "active_start": 210,
+      "active_end_exclusive": 381,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 27,
+      "gap_tiles": 3,
+      "active_start": 119,
+      "active_end_exclusive": 290,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 28,
+      "gap_tiles": 1,
+      "active_start": 28,
+      "active_end_exclusive": 199,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 4,
+      "E_phase": 29,
+      "gap_tiles": 3,
+      "active_start": 147,
+      "active_end_exclusive": 318,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 0,
+      "gap_tiles": 4,
+      "active_start": 146,
+      "active_end_exclusive": 317,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 1,
+      "gap_tiles": 2,
+      "active_start": 55,
+      "active_end_exclusive": 226,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 2,
+      "gap_tiles": 4,
+      "active_start": 174,
+      "active_end_exclusive": 345,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 3,
+      "gap_tiles": 3,
+      "active_start": 83,
+      "active_end_exclusive": 254,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 4,
+      "gap_tiles": 1,
+      "active_start": 9,
+      "active_end_exclusive": 163,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 5,
+      "gap_tiles": 3,
+      "active_start": 111,
+      "active_end_exclusive": 282,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 6,
+      "gap_tiles": 2,
+      "active_start": 20,
+      "active_end_exclusive": 191,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 7,
+      "gap_tiles": 4,
+      "active_start": 139,
+      "active_end_exclusive": 310,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 8,
+      "gap_tiles": 2,
+      "active_start": 48,
+      "active_end_exclusive": 219,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 9,
+      "gap_tiles": 4,
+      "active_start": 167,
+      "active_end_exclusive": 338,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 10,
+      "gap_tiles": 3,
+      "active_start": 76,
+      "active_end_exclusive": 247,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 11,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 156,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 12,
+      "gap_tiles": 3,
+      "active_start": 104,
+      "active_end_exclusive": 275,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 13,
+      "gap_tiles": 1,
+      "active_start": 13,
+      "active_end_exclusive": 184,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 14,
+      "gap_tiles": 3,
+      "active_start": 132,
+      "active_end_exclusive": 303,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 15,
+      "gap_tiles": 2,
+      "active_start": 41,
+      "active_end_exclusive": 212,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 16,
+      "gap_tiles": 4,
+      "active_start": 160,
+      "active_end_exclusive": 331,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 17,
+      "gap_tiles": 2,
+      "active_start": 69,
+      "active_end_exclusive": 240,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 18,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 149,
+      "active_ticks": 147,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 19,
+      "gap_tiles": 3,
+      "active_start": 97,
+      "active_end_exclusive": 268,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 20,
+      "gap_tiles": 1,
+      "active_start": 6,
+      "active_end_exclusive": 177,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 21,
+      "gap_tiles": 3,
+      "active_start": 125,
+      "active_end_exclusive": 296,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 22,
+      "gap_tiles": 2,
+      "active_start": 34,
+      "active_end_exclusive": 205,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 23,
+      "gap_tiles": 4,
+      "active_start": 153,
+      "active_end_exclusive": 324,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 24,
+      "gap_tiles": 2,
+      "active_start": 62,
+      "active_end_exclusive": 233,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 25,
+      "gap_tiles": 4,
+      "active_start": 181,
+      "active_end_exclusive": 352,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 26,
+      "gap_tiles": 2,
+      "active_start": 90,
+      "active_end_exclusive": 261,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 27,
+      "gap_tiles": 1,
+      "active_start": 2,
+      "active_end_exclusive": 170,
+      "active_ticks": 168,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 28,
+      "gap_tiles": 3,
+      "active_start": 118,
+      "active_end_exclusive": 289,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 5,
+      "E_phase": 29,
+      "gap_tiles": 1,
+      "active_start": 27,
+      "active_end_exclusive": 198,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 0,
+      "gap_tiles": 2,
+      "active_start": 26,
+      "active_end_exclusive": 197,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 1,
+      "gap_tiles": 4,
+      "active_start": 145,
+      "active_end_exclusive": 316,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 2,
+      "gap_tiles": 2,
+      "active_start": 54,
+      "active_end_exclusive": 225,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 3,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 134,
+      "active_ticks": 133,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 4,
+      "gap_tiles": 3,
+      "active_start": 82,
+      "active_end_exclusive": 253,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 5,
+      "gap_tiles": 1,
+      "active_start": 8,
+      "active_end_exclusive": 162,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 6,
+      "gap_tiles": 4,
+      "active_start": 110,
+      "active_end_exclusive": 281,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 7,
+      "gap_tiles": 2,
+      "active_start": 19,
+      "active_end_exclusive": 190,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 8,
+      "gap_tiles": 4,
+      "active_start": 138,
+      "active_end_exclusive": 309,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 9,
+      "gap_tiles": 2,
+      "active_start": 47,
+      "active_end_exclusive": 218,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 10,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 127,
+      "active_ticks": 126,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 11,
+      "gap_tiles": 3,
+      "active_start": 75,
+      "active_end_exclusive": 246,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 12,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 155,
+      "active_ticks": 154,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        50
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 13,
+      "gap_tiles": 3,
+      "active_start": 103,
+      "active_end_exclusive": 274,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 14,
+      "gap_tiles": 1,
+      "active_start": 12,
+      "active_end_exclusive": 183,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 15,
+      "gap_tiles": 4,
+      "active_start": 131,
+      "active_end_exclusive": 302,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 16,
+      "gap_tiles": 2,
+      "active_start": 40,
+      "active_end_exclusive": 211,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 17,
+      "gap_tiles": 4,
+      "active_start": 159,
+      "active_end_exclusive": 330,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 18,
+      "gap_tiles": 3,
+      "active_start": 68,
+      "active_end_exclusive": 239,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 19,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 148,
+      "active_ticks": 147,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        44
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 20,
+      "gap_tiles": 3,
+      "active_start": 96,
+      "active_end_exclusive": 267,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 21,
+      "gap_tiles": 1,
+      "active_start": 5,
+      "active_end_exclusive": 176,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 22,
+      "gap_tiles": 4,
+      "active_start": 124,
+      "active_end_exclusive": 295,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 23,
+      "gap_tiles": 2,
+      "active_start": 33,
+      "active_end_exclusive": 204,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 24,
+      "gap_tiles": 4,
+      "active_start": 152,
+      "active_end_exclusive": 323,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 25,
+      "gap_tiles": 2,
+      "active_start": 61,
+      "active_end_exclusive": 232,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 26,
+      "gap_tiles": 4,
+      "active_start": 180,
+      "active_end_exclusive": 351,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 27,
+      "gap_tiles": 3,
+      "active_start": 89,
+      "active_end_exclusive": 260,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 28,
+      "gap_tiles": 1,
+      "active_start": 1,
+      "active_end_exclusive": 169,
+      "active_ticks": 168,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    },
+    {
+      "C2_phase": 6,
+      "E_phase": 29,
+      "gap_tiles": 3,
+      "active_start": 117,
+      "active_end_exclusive": 288,
+      "active_ticks": 171,
+      "defect_support_relative_to_incoming_C2": [
+        -41,
+        52
+      ],
+      "C2_displacement": 7,
+      "E_intercept_displacement": -171,
+      "E_phase_displacement": 24
+    }
+  ]
+}

@@ -20,5 +20,5 @@ Thumbs.db
 !.env.example
 # Generated verification reports and visualization screenshots.
 /artifacts/
-# Generated soundness-audit data; keep the compact recorded summaries.
-/soundness/results/
+# Generated supplementary audit data; keep the compact recorded summaries.
+/supplementary/results/

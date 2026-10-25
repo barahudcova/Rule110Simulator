@@ -79,12 +79,12 @@ returns. A tick limit or missing return is inconclusive and cannot pass.
 From the release repository root, using Python 3.10 or later:
 
 ```sh
-python soundness/decoder_seeded.py --workers 2
+python supplementary/decoder_seeded.py --workers 2
 ```
 
 Only the standard library is required. Detailed reports, independent expected
 states, input manifests, and gzip-compressed complete ready rows are written
-under the ignored `soundness/results/decoder-seeded/` directory. Each row record
+under the ignored `supplementary/results/decoder-seeded/` directory. Each row record
 includes its case, initial tape, appendants, native tick, origin, width, complete
 binary input, ready index, decoder event, and independent expected output.
 The full campaign is intentionally a long-running check: some cases allocate
@@ -92,7 +92,7 @@ millions of cells. For a quicker targeted run, select a case and omit the
 separate initialization matrix:
 
 ```sh
-python soundness/decoder_seeded.py --cases seeded-z6-v0 \
+python supplementary/decoder_seeded.py --cases seeded-z6-v0 \
   --skip-initialization-matrix
 ```
 
@@ -107,8 +107,8 @@ After generating the logs, replay a particular binary input without rerunning
 the CA, optionally using the interpreter without transition memoization:
 
 ```sh
-python soundness/decoder_replay.py \
-  soundness/results/decoder-seeded/seeded-z6-v0/ready-rows.jsonl.gz \
+python supplementary/decoder_replay.py \
+  supplementary/results/decoder-seeded/seeded-z6-v0/ready-rows.jsonl.gz \
   --ready-index 12 --no-memoization
 ```
 
@@ -220,7 +220,7 @@ To reproduce that diagnostic alone without counting it as an admissible test:
 
 ```sh
 python verify.py --tape NYYY --appendants YNNNNY --multisteps 12 \
-  --output soundness/results/outside-domain-pilot
+  --output supplementary/results/outside-domain-pilot
 ```
 
 These results concern finite tested inputs and finite observation horizons.

@@ -15,41 +15,46 @@
     "pyca_verifier/gui/simulation.py": "6f2b0b3aad11eed1a4ffc29096531e6bc6176d4da557c2874631a0b5536b2dd9",
     "pyca_verifier/patterns.py": "5fc8b3271e70007f1dec8a615a16a75108850d55ebcade63dc9f83d8032f8185",
     "pyca_verifier/spacing_geometry.py": "3b1b461512540ac9bbb0440110047d5c13b72edd89f14aa8e131b3fd313dd825",
-    "soundness/chunk_generation.py": "1e47f09980b2d2d33f07ed1f904898d9bd1a8c75837818da3817d518e14c6664",
-    "soundness/decoder_blocks.py": "291a733d7bcaa14ac3e65466b5c741b06c9169e894250932643c8086e1c11e6c",
-    "soundness/decoder_cts.py": "6aad4d935e375aff5149175f153f7fa6286511d88933565d08bc1014bc340dd9",
-    "soundness/decoder_database.py": "205eee33fb3bd496da10957253056c1ae2498d0acea88998e0742ff84fb8c085",
-    "soundness/decoder_excluded.py": "8cdc7f8b27beb7aed9f53753eb632ccbd5799d545be5d53ce06b5c07235a5970",
-    "soundness/decoder_receipts.py": "391a7e80d0c1f479ee953e6e0422fb3a7a755a3ba144493c7049991fa9475467",
-    "soundness/decoder_replay.py": "3fc9ca7a2ba5970fac0c3b2543e69e767e63021f6bb84ec3ecc6dd45791873a1",
-    "soundness/decoder_seeded.py": "c15d1a8e291680b350e76ac9b9c3ede9371d36de912ac4dc4346b419b530a166",
-    "soundness/distance_conventions.py": "4643cb78726c48f159c3a910bed1cdee4363351dde25cc85dcce6104931612da",
-    "soundness/program_geometry.py": "e133ce8dfddc8ed86a1f3eff152c27e7b549fd0d2a7947316609630ac7605435",
-    "soundness/program_joins.py": "44fd1dced7afd31a83560c6baa69f8f81ab17998652f04df2fd58b04dbe39ff4",
-    "soundness/ready_database.py": "b09c497643fa57e1ca4df5a0ffbb019e698ddbcf14cc734658c5797550c98cbd",
-    "soundness/run.py": "eed3732a217d6eb9551d266059f44ccf3ded98d7f87dd1b58ac6d009757fa60d",
-    "soundness/static_ossifier_joins.py": "57bcfaeafcfcd8bee5bb4e66ba1902e605d360c040ce2cf996cdf7da031c6fd8"
+    "supplementary/birth_gap_bounds.py": "c658899098aa767dfb869df02d335ce150efc84968cdeb04d2dffc3c47ec3e21",
+    "supplementary/chunk_generation.py": "1e47f09980b2d2d33f07ed1f904898d9bd1a8c75837818da3817d518e14c6664",
+    "supplementary/crossing_balance.py": "68a09cdfea17236d6a03bd3340c70860d4b2bf93d047d4d0745a65ae84df47f8",
+    "supplementary/decoder_blocks.py": "291a733d7bcaa14ac3e65466b5c741b06c9169e894250932643c8086e1c11e6c",
+    "supplementary/decoder_cts.py": "00e1cafc9c75db8f4aca5724d23bb07c1abc331a2b2c5e8800ecd975f85172a5",
+    "supplementary/decoder_database.py": "205eee33fb3bd496da10957253056c1ae2498d0acea88998e0742ff84fb8c085",
+    "supplementary/decoder_excluded.py": "8cdc7f8b27beb7aed9f53753eb632ccbd5799d545be5d53ce06b5c07235a5970",
+    "supplementary/decoder_receipts.py": "391a7e80d0c1f479ee953e6e0422fb3a7a755a3ba144493c7049991fa9475467",
+    "supplementary/decoder_replay.py": "3fc9ca7a2ba5970fac0c3b2543e69e767e63021f6bb84ec3ecc6dd45791873a1",
+    "supplementary/decoder_seeded.py": "c15d1a8e291680b350e76ac9b9c3ede9371d36de912ac4dc4346b419b530a166",
+    "supplementary/distance_conventions.py": "4643cb78726c48f159c3a910bed1cdee4363351dde25cc85dcce6104931612da",
+    "supplementary/ossifier_gap.py": "351e18391c96e7f1bbf164db7cf87d7794269be2e263368c024bab64a2ccbd74",
+    "supplementary/passing_particle_spacing.py": "f90d9ff1d1c0deb3419466a1a295f0a8c4fb1aef94640c49a6cbc485d3c5e107",
+    "supplementary/passing_source_seams.py": "7ef7f0ba0db4b78bd2f41b25e951bcc1cc3ff96ec14c2a2b80e466f3d5c3409b",
+    "supplementary/program_geometry.py": "e133ce8dfddc8ed86a1f3eff152c27e7b549fd0d2a7947316609630ac7605435",
+    "supplementary/program_joins.py": "44fd1dced7afd31a83560c6baa69f8f81ab17998652f04df2fd58b04dbe39ff4",
+    "supplementary/ready_database.py": "b09c497643fa57e1ca4df5a0ffbb019e698ddbcf14cc734658c5797550c98cbd",
+    "supplementary/run.py": "eed3732a217d6eb9551d266059f44ccf3ded98d7f87dd1b58ac6d009757fa60d",
+    "supplementary/static_ossifier_joins.py": "57bcfaeafcfcd8bee5bb4e66ba1902e605d360c040ce2cf996cdf7da031c6fd8"
   },
   "checks": [
     {
       "name": "distance conventions",
       "passed": true,
-      "seconds": 0.651
+      "seconds": 0.606
     },
     {
       "name": "program joins and finite grammar",
       "passed": true,
-      "seconds": 6.536
+      "seconds": 6.369
     },
     {
       "name": "static symbols and ossifiers",
       "passed": true,
-      "seconds": 4.656
+      "seconds": 4.138
     },
     {
       "name": "source continuation",
       "passed": true,
-      "seconds": 0.497
+      "seconds": 0.517
     }
   ],
   "ready_or_decoder_checks_performed": false,
@@ -82,12 +87,13 @@
     "Source concatenation and insertion phases are checked; arbitrary live-splice causal equivalence is not proved.",
     "Ready-word uniqueness and decoder completeness are outside this encoder audit."
   ],
-  "elapsed_seconds": 12.399,
+  "elapsed_seconds": 11.682,
   "result_sha256": {
-    "chunk-generation.json": "3dc41d06b220ede73d121137b6546a80dfb1b6466bbf10425130d4486d25534a",
+    "chunk-generation.json": "bafb0250cd0cf62041ed10e405565d3a0418f0abbe658d30b8efb6b24e1cdb25",
+    "decoder-archive-integrity.json": "647fdaeb2fac60a622bdb6bb68eafd1eb466f90105c3b065eef843a7f74af829",
     "decoder-cts-agent-state.json": "5dee2f8a002d0646f0ee240a9e6c8193a07b6aa1a644a3a6850a111200bf259c",
-    "distance-conventions.json": "eb389d80383090b9e587a12868bd1229ed99af7faee95b2b57afd50d7e6ff296",
-    "program-joins.json": "c0c883856eb04a902c8f35716b162a25c5438b73f3b73e364db5f1232b9a6906",
-    "static-ossifier-joins.json": "c63de15572e0f7b5f7d5814ba11ff994ca63e98111fa99926372ddfecd860321"
+    "distance-conventions.json": "05752e526fdeb92887f2d3ccc2d9fece1ea203b26d8ba872519738a123053566",
+    "program-joins.json": "8dfa8edbdc1bf2785551dd1758b3378ade10fa6f988f5e9448d1fec41fd005b1",
+    "static-ossifier-joins.json": "7b23c16dbdcfd7e0d8284312990725dbf443288b02e656c2eb4650ff24b49bc9"
   }
 }

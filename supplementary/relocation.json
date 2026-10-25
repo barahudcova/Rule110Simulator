@@ -1,0 +1,139 @@
+{
+  "format_version": 1,
+  "previous_directory": "soundness",
+  "current_directory": "supplementary",
+  "moved_notes": {
+    "INITIAL_GAP.md": "supplementary/INITIAL_GAP.md",
+    "soundness/README.md": "supplementary/ENCODER.md"
+  },
+  "runtime_changed": false,
+  "scope": "Folder relocation; hashes below identify check sources before and after path updates. Historical campaign receipts retain their original contents and source identities.",
+  "checks": [
+    {
+      "previous_path": "soundness/birth_gap_bounds.py",
+      "current_path": "supplementary/birth_gap_bounds.py",
+      "previous_sha256": "dc8942c1e3331c788b65609651f2b4bcfc7fcd0f10c5717141e32cafa3483a02",
+      "current_sha256": "c658899098aa767dfb869df02d335ce150efc84968cdeb04d2dffc3c47ec3e21",
+      "change": "folder references only"
+    },
+    {
+      "previous_path": "soundness/chunk_generation.py",
+      "current_path": "supplementary/chunk_generation.py",
+      "previous_sha256": "1e47f09980b2d2d33f07ed1f904898d9bd1a8c75837818da3817d518e14c6664",
+      "current_sha256": "1e47f09980b2d2d33f07ed1f904898d9bd1a8c75837818da3817d518e14c6664",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/crossing_balance.py",
+      "current_path": "supplementary/crossing_balance.py",
+      "previous_sha256": "68a09cdfea17236d6a03bd3340c70860d4b2bf93d047d4d0745a65ae84df47f8",
+      "current_sha256": "68a09cdfea17236d6a03bd3340c70860d4b2bf93d047d4d0745a65ae84df47f8",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/decoder_blocks.py",
+      "current_path": "supplementary/decoder_blocks.py",
+      "previous_sha256": "291a733d7bcaa14ac3e65466b5c741b06c9169e894250932643c8086e1c11e6c",
+      "current_sha256": "291a733d7bcaa14ac3e65466b5c741b06c9169e894250932643c8086e1c11e6c",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/decoder_cts.py",
+      "current_path": "supplementary/decoder_cts.py",
+      "previous_sha256": "6aad4d935e375aff5149175f153f7fa6286511d88933565d08bc1014bc340dd9",
+      "current_sha256": "00e1cafc9c75db8f4aca5724d23bb07c1abc331a2b2c5e8800ecd975f85172a5",
+      "change": "folder references only"
+    },
+    {
+      "previous_path": "soundness/decoder_database.py",
+      "current_path": "supplementary/decoder_database.py",
+      "previous_sha256": "205eee33fb3bd496da10957253056c1ae2498d0acea88998e0742ff84fb8c085",
+      "current_sha256": "205eee33fb3bd496da10957253056c1ae2498d0acea88998e0742ff84fb8c085",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/decoder_excluded.py",
+      "current_path": "supplementary/decoder_excluded.py",
+      "previous_sha256": "8cdc7f8b27beb7aed9f53753eb632ccbd5799d545be5d53ce06b5c07235a5970",
+      "current_sha256": "8cdc7f8b27beb7aed9f53753eb632ccbd5799d545be5d53ce06b5c07235a5970",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/decoder_receipts.py",
+      "current_path": "supplementary/decoder_receipts.py",
+      "previous_sha256": "391a7e80d0c1f479ee953e6e0422fb3a7a755a3ba144493c7049991fa9475467",
+      "current_sha256": "391a7e80d0c1f479ee953e6e0422fb3a7a755a3ba144493c7049991fa9475467",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/decoder_replay.py",
+      "current_path": "supplementary/decoder_replay.py",
+      "previous_sha256": "3fc9ca7a2ba5970fac0c3b2543e69e767e63021f6bb84ec3ecc6dd45791873a1",
+      "current_sha256": "3fc9ca7a2ba5970fac0c3b2543e69e767e63021f6bb84ec3ecc6dd45791873a1",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/decoder_seeded.py",
+      "current_path": "supplementary/decoder_seeded.py",
+      "previous_sha256": "c15d1a8e291680b350e76ac9b9c3ede9371d36de912ac4dc4346b419b530a166",
+      "current_sha256": "c15d1a8e291680b350e76ac9b9c3ede9371d36de912ac4dc4346b419b530a166",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/distance_conventions.py",
+      "current_path": "supplementary/distance_conventions.py",
+      "previous_sha256": "4643cb78726c48f159c3a910bed1cdee4363351dde25cc85dcce6104931612da",
+      "current_sha256": "4643cb78726c48f159c3a910bed1cdee4363351dde25cc85dcce6104931612da",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/passing_particle_spacing.py",
+      "current_path": "supplementary/passing_particle_spacing.py",
+      "previous_sha256": "f90d9ff1d1c0deb3419466a1a295f0a8c4fb1aef94640c49a6cbc485d3c5e107",
+      "current_sha256": "f90d9ff1d1c0deb3419466a1a295f0a8c4fb1aef94640c49a6cbc485d3c5e107",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/passing_source_seams.py",
+      "current_path": "supplementary/passing_source_seams.py",
+      "previous_sha256": "7ef7f0ba0db4b78bd2f41b25e951bcc1cc3ff96ec14c2a2b80e466f3d5c3409b",
+      "current_sha256": "7ef7f0ba0db4b78bd2f41b25e951bcc1cc3ff96ec14c2a2b80e466f3d5c3409b",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/program_geometry.py",
+      "current_path": "supplementary/program_geometry.py",
+      "previous_sha256": "e133ce8dfddc8ed86a1f3eff152c27e7b549fd0d2a7947316609630ac7605435",
+      "current_sha256": "e133ce8dfddc8ed86a1f3eff152c27e7b549fd0d2a7947316609630ac7605435",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/program_joins.py",
+      "current_path": "supplementary/program_joins.py",
+      "previous_sha256": "44fd1dced7afd31a83560c6baa69f8f81ab17998652f04df2fd58b04dbe39ff4",
+      "current_sha256": "44fd1dced7afd31a83560c6baa69f8f81ab17998652f04df2fd58b04dbe39ff4",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/ready_database.py",
+      "current_path": "supplementary/ready_database.py",
+      "previous_sha256": "b09c497643fa57e1ca4df5a0ffbb019e698ddbcf14cc734658c5797550c98cbd",
+      "current_sha256": "b09c497643fa57e1ca4df5a0ffbb019e698ddbcf14cc734658c5797550c98cbd",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/run.py",
+      "current_path": "supplementary/run.py",
+      "previous_sha256": "eed3732a217d6eb9551d266059f44ccf3ded98d7f87dd1b58ac6d009757fa60d",
+      "current_sha256": "eed3732a217d6eb9551d266059f44ccf3ded98d7f87dd1b58ac6d009757fa60d",
+      "change": "unchanged contents"
+    },
+    {
+      "previous_path": "soundness/static_ossifier_joins.py",
+      "current_path": "supplementary/static_ossifier_joins.py",
+      "previous_sha256": "57bcfaeafcfcd8bee5bb4e66ba1902e605d360c040ce2cf996cdf7da031c6fd8",
+      "current_sha256": "57bcfaeafcfcd8bee5bb4e66ba1902e605d360c040ce2cf996cdf7da031c6fd8",
+      "change": "unchanged contents"
+    }
+  ]
+}
